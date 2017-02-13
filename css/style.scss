@@ -1,0 +1,12 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+body {
+  background: black;
+  color: white;
+}
+
+main {
+  @include outer-container;
+  background: pink;
+}
