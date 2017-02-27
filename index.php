@@ -5,10 +5,9 @@
         boundless
     </section>
 
-    <section class="welcome">
-        <h1>we are boundless</h1>
-
+    <section class="welcome">   
         <article>
+            <h1>we are boundless</h1>
             <p>
                 Synth messenger bag meh, art party post-ironic woke asymmetrical unicorn organic raw denim. Tousled cardigan pinterest sriracha, echo park whatever forage unicorn cronut health goth pork belly art party. Mlkshk paleo woke wolf sartorial vegan. Jean shorts shoreditch hella, meggings chia umami cold-pressed. XOXO tousled umami raw denim meh seitan listicle glossier, keytar chicharrones. Pinterest yuccie skateboard, coloring book blue bottle pabst vexillologist jean shorts mumblecore crucifix enamel pin williamsburg celiac. Ethical vinyl aesthetic, meh lo-fi deep v af drinking vinegar snackwave etsy.
             </p>

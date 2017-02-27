@@ -20,8 +20,10 @@ main {
 }
 
 section {
-  @include grid-column();
+  @include grid-container();
   height: 100vh;
+  float: left;
+  width: 100%;
   border-bottom: 1px solid black;
 }
 
@@ -35,9 +37,11 @@ blockquote {
 
 // custom classes
 .welcome {
-  @include grid-column(3);
-  @include grid-shift(-2);
-  float: right;
+  article {
+    @include grid-column(3);
+    @include grid-shift(-2);
+    float: right;
+  }
 }
 
 

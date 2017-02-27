@@ -14,18 +14,21 @@ main::after {
   display: block; }
 
 section {
-  width: calc(100% - 40px);
-  float: left;
-  margin-left: 20px;
   height: 100vh;
+  float: left;
+  width: 100%;
   border-bottom: 1px solid black; }
+  section::after {
+    clear: both;
+    content: "";
+    display: block; }
 
 blockquote {
   color: teal;
   text-align: center;
   font-size: 2rem; }
 
-.welcome {
+.welcome article {
   width: calc(25% - 25px);
   float: left;
   margin-left: 20px;
