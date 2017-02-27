@@ -1,12 +1,85 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
 
+html {
+  //we don't want grid collapse on html
+  //it pulls the page over
+  //@include grid-collapse();
+}
+
 body {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
+  margin: 0;
+  font-family: $helvetica;
+  @include grid-container();
 }
 
 main {
-  @include outer-container;
-  background: pink;
+  @include grid-container();
+}
+
+section {
+  @include grid-column();
+  height: 100vh;
+}
+
+// standard elements
+blockquote {
+  color: teal;
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+// custom classes
+.welcome {
+  @include grid-column(3);
+  @include grid-shift(-2);
+  float: right;
+}
+
+
+  .web, .print {
+    @include grid-column(6);
+  }
+
+
+footer {
+  background: #000;
+  color: white;
+  padding: 10px 0;
+  @include grid-container();
+
+  .left {
+    @include grid-column(6);
+  }
+  .right {
+    @include grid-column(6);
+    text-align: right;
+
+    .copyright {
+      margin-top:20px;
+      font-size: .85rem;
+    }
+  }
+  
+  form {
+    input, textarea {
+      width: 100%;
+      max-width: 450px;
+      display: block;
+      margin: 8px 0;
+      padding: 5px;
+      border-radius: 2px;
+      border: none;
+      box-shadow: none;
+      background-color: rgba(255,255,255,.9);
+    }
+  }
+
+  ul li {
+    display: inline-block;
+    margin: 2px 8px;
+  }
 }
