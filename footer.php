@@ -1,19 +1,19 @@
 <footer>
-   <div class="left">
-       contact us
-       <form action="">
-           <input type="text" placeholder="name">
-           <label for=""></label>
+    <div class="left">
+        contact us
+        <form action="">
+            <input type="text" placeholder="name">
+            <label for=""></label>
 
-           <input type="text" placeholder="email">
-           <label for=""></label>
+            <input type="text" placeholder="email">
+            <label for=""></label>
 
-           <input type="text" placeholder="phone">
-           <label for=""></label>
+            <input type="text" placeholder="phone">
+            <label for=""></label>
 
-           <textarea name="" id="" placeholder="message"></textarea>
-       </form>
-   </div>
+            <textarea name="" id="" placeholder="message"></textarea>
+        </form>
+    </div>
 
     <div class="right">
         <ul class="links">

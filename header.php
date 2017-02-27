@@ -11,6 +11,10 @@
 </head>
 <body>
 
+<!--
+make header only visible on pages such as
+portfolio and press
+-->
 <header>
 
 </header>

@@ -23,3 +23,15 @@
     @return unquote("#{percentage($_column-ratio)} - #{$_gutter-affordance}");
   }
 }
+
+@function _boundless-column-width($grid, $columns) {
+  $_column-ratio: _neat-column-ratio($grid, $columns);
+  $_gutter: _retrieve-neat-setting($grid, gutter);
+
+  @if $_gutter == 0 {
+    @return unquote("#{percentage($_column-ratio)}");
+  } @else {
+    $_gutter-affordance: $_gutter + ($_gutter * $_column-ratio);
+    @return unquote("#{percentage($_column-ratio)}");
+  }
+}
