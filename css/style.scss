@@ -22,6 +22,7 @@ main {
 section {
   @include grid-column();
   height: 100vh;
+  border-bottom: 1px solid black;
 }
 
 // standard elements
