@@ -18,7 +18,7 @@ body {
 
 section, header {
   @include grid-container;
-  height: 100vh;
+  // height: 100vh;
   float: left;
   width: 100%;
   border-bottom: 1px solid black;
