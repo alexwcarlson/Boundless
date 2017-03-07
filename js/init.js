@@ -3,24 +3,31 @@ jQuery(window).load(function(){
     jQuery(window).on('resize', updateBoxDimension);
     initMap();
 
-    jQuery("#toggle").click(function() {
-        document.getElementById("myNav").style.width = "100%";
-        jQuery(".overlay-content").show();
-        jQuery(".overlay-content ul").show();
-        jQuery(".overlay-content .menu-item").each( function(e) {
-            jQuery(this).delay(300 * (e + 1)).toggle("slide");
-        });
+
+
+    var navigation = document.getElementById("myNav");
+    jQuery("#toggle").on('click', function(){
+        if(!jQuery(navigation).hasClass("open")) {
+            jQuery('#svg-rotate').css({'transform': 'rotate(225deg)', 'transform-origin': '50% 50%'});
+            jQuery(navigation).css({width:'100%'}).addClass('open');
+            jQuery(".overlay-content, .overlay-content ul").show();
+            jQuery(".overlay-content .menu-item").each( function(e) {
+                jQuery(this).delay(300 * (e + 1)).toggle("slide");
+            });
+        } else {
+            jQuery('#svg-rotate').css({'transform': 'rotate(-180deg)', 'transform-origin': '50% 50%'});
+            jQuery(navigation).css({width:'0%'}).removeClass('open');
+        }
     });
-    // jQuery("onkeydown", function() {
-    //     if (e.keyCode == 27) {
-    //         jQuery(".overlay-content .menu-item").each(function (e) {
-    //             jQuery(this).delay(300 * (e + 1)).toggle("slide");
-    //         });
-    //         document.getElementById("myNav").style.width = "0%";
-    //         jQuery(".overlay-content").hide();
-    //         jQuery(".overlay-content ul").hide();
-    //     }
-    // });
+
+    jQuery(document).on("keydown", function(e) {
+        if (jQuery(navigation).hasClass('open') && e.keyCode == 27) {
+            jQuery('#svg-rotate').css({'transform': '', 'transform-origin': ''});
+            jQuery(navigation).css({width:'0%'}).removeClass('open');
+        }
+    });
+
+
     function updateBoxDimension() {
         var offsetLeft1 = jQuery( "#first" ).offset();
         jQuery("#second").css({
