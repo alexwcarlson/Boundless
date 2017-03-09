@@ -3,9 +3,8 @@ $mobile-angle: 10deg;
 * {
   box-sizing: border-box;
 }
-html {
+body,html {
   overflow-x: hidden;
-
 }
 p {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -13,19 +12,7 @@ p {
   font-size: 16px;
 }
 .site {
-  // this caused a random scroll bar in keisha's browser
-  //overflow-x: hidden;
-}
-
-.site-branding {
-  height: 100vh;
-
-  img {
-    width:60%;
-    margin: 0 auto;
-    padding-top: 20%;
-    display:block;
-  }
+  overflow-x: hidden;
 }
 .welcome {
   margin-left: 60%;
@@ -187,24 +174,6 @@ section {
   position: relative;
   float: right;
 }
-
-.svg-toggle {
-  height: 100px;
-  z-index: 30;
-  position: fixed;
-  top: 0;
-  right: 0;
-
-
-  .base{
-    fill:#4B6766;}
-  .tri{
-    fill:#3AA8A7;}
-  .plus{
-    fill:#FFFFFF;
-    transition: transform 1s ease;}
-}
-
 .portfolio {
   .angle-inner {
     width: 100%;
