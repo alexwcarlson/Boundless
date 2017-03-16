@@ -218,11 +218,11 @@ ul.navigation {
   position: fixed;
   z-index: 25;
   top: 0;
-  left: 0;
+  right: 0;
+  transition: all 0.5s ease;
   background-color: white;
   background-color: rgba(255, 255, 255, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s; }
+  overflow-x: hidden; }
   @media screen and (max-height: 450px) {
     .overlay .overlay a {
       font-size: 20px; }
@@ -664,7 +664,7 @@ ul#demo-nav {
 * {
   box-sizing: border-box; }
 
-body, html {
+html {
   overflow-x: hidden; }
 
 p {
@@ -672,8 +672,13 @@ p {
   line-height: 22px;
   font-size: 16px; }
 
-.site {
-  overflow-x: hidden; }
+.site-branding {
+  height: 100vh; }
+  .site-branding img {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20%;
+    display: block; }
 
 .welcome {
   margin-left: 60%; }
@@ -1044,6 +1049,20 @@ section {
   position: relative;
   float: right; }
 
+.svg-toggle {
+  height: 100px;
+  z-index: 30;
+  position: fixed;
+  top: 0;
+  right: 0; }
+  .svg-toggle .base {
+    fill: #4B6766; }
+  .svg-toggle .tri {
+    fill: #3AA8A7; }
+  .svg-toggle .plus {
+    fill: #FFFFFF;
+    transition: transform 1s ease; }
+
 .portfolio .angle-inner {
   width: 100%;
   margin: 75px 0;
@@ -1088,6 +1107,77 @@ section {
         margin-top: 0; }
       .portfolio .stripe-last {
         margin-bottom: 0; } }
+
+.sec-portfolio {
+  position: relative; }
+  .sec-portfolio .web-full {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    float: left;
+    height: inherit; }
+    .sec-portfolio .web-full a {
+      width: 25%;
+      height: 200px;
+      position: relative;
+      top: 0;
+      float: left;
+      text-align: left;
+      display: block;
+      background-color: #2b2b2b;
+      color: #FFF;
+      text-transform: uppercase; }
+      .sec-portfolio .web-full a:after {
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: #2b2b2b;
+        border-right: 1px solid transparent;
+        transform-origin: bottom left;
+        -ms-transform: skew(-20deg, 0deg);
+        -webkit-transform: skew(-20deg, 0deg);
+        transform: skew(-20deg, 0deg); }
+  .sec-portfolio .print-full {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    float: left;
+    height: inherit; }
+    .sec-portfolio .print-full a {
+      width: 25%;
+      height: 200px;
+      position: relative;
+      top: 70%;
+      float: right;
+      text-align: right;
+      display: block;
+      background-color: #2b2b2b;
+      color: #FFF;
+      text-transform: uppercase; }
+      .sec-portfolio .print-full a:after {
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: #2b2b2b;
+        border-left: 1px solid transparent;
+        transform-origin: top right;
+        -ms-transform: skew(-20deg, 0deg);
+        -webkit-transform: skew(-20deg, 0deg);
+        transform: skew(-20deg, 0deg); }
 
 .site-footer {
   clear: both;

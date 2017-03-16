@@ -36,32 +36,43 @@ get_header(); ?>
                     </blockquote>
                 </div><!-- .angle -->
             </section>
-            <section>
+
+            <section class="sec-portfolio">
                 <div class="angle-behind"></div>
-                <div class="web off-mobile">
-                    web div
-                </div>
+<!--                <div class="web off-mobile">-->
+<!--                    web div-->
+<!--                </div>-->
                 <div id="second" class="angle portfolio">
                     <div class="stripe stripe-3 stripe-first"></div>
                     <div class="stripe stripe-2"></div>
                     <div class="stripe stripe-1"></div>
                     <div class="web on-mobile">
-                        web div
+                        div
                     </div>
                     <div class="angle-inner">
                         <a href="#" class="portfolio-btn">view our portfolios</a>
                     </div><!-- .angle-inner -->
                     <div class="print on-mobile">
-                        print div
+                        div
                     </div>
                     <div class="stripe stripe-1"></div>
                     <div class="stripe stripe-2"></div>
                     <div class="stripe stripe-3 stripe-last"></div>
                 </div><!-- .angle -->
-                <div class="print off-mobile">
-                    print div
+
+                <div class="web-full on-mobile">
+                    <a href="http://google.com">web div!</a>
                 </div>
+                <div class="print-full on-mobile">
+
+                    <a href="http://google.com">Print</a>
+                </div>
+
+<!--                <div class="print off-mobile">-->
+<!--                    print div-->
+<!--                </div>-->
             </section>
+
             <section>
                 <div class="angle-behind">
                     <div id="map"></div>
