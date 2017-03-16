@@ -218,11 +218,11 @@ ul.navigation {
   position: fixed;
   z-index: 25;
   top: 0;
-  left: 0;
+  right: 0;
+  transition: all 0.5s ease;
   background-color: white;
   background-color: rgba(255, 255, 255, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s; }
+  overflow-x: hidden; }
   @media screen and (max-height: 450px) {
     .overlay .overlay a {
       font-size: 20px; }
@@ -664,7 +664,7 @@ ul#demo-nav {
 * {
   box-sizing: border-box; }
 
-body, html {
+html {
   overflow-x: hidden; }
 
 p {
@@ -672,21 +672,22 @@ p {
   line-height: 22px;
   font-size: 16px; }
 
-.site {
-  overflow-x: hidden; }
+.site-branding {
+  height: 100vh; }
+  .site-branding img {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20%;
+    display: block; }
 
-.welcome {
-  margin-left: 60%; }
+#first {
+  margin-right: 12%; }
 
-@media screen and (max-width: 980px) {
-  #first {
-    margin-left: 40%; } }
-@media screen and (max-width: 480px) {
-  #first {
-    margin-left: 10%; } }
+#second {
+  margin-right: 33.75%; }
 
-#second, #third {
-  margin-top: -8px; }
+#third {
+  margin-right: 55.5%; }
 
 #first, #third {
   background-color: #2b2b2b; }
@@ -702,9 +703,9 @@ section {
 
 .angle {
   width: 500px;
-  float: left;
+  float: right;
   height: 100%;
-  transform: skewX(-20deg); }
+  transform: skewX(-25deg); }
   @media screen and (max-width: 480px) {
     .angle {
       transform: skewX(-10deg); } }
@@ -1044,6 +1045,20 @@ section {
   position: relative;
   float: right; }
 
+.svg-toggle {
+  height: 100px;
+  z-index: 30;
+  position: fixed;
+  top: 0;
+  right: 0; }
+  .svg-toggle .base {
+    fill: #4B6766; }
+  .svg-toggle .tri {
+    fill: #3AA8A7; }
+  .svg-toggle .plus {
+    fill: #FFFFFF;
+    transition: transform 1s ease; }
+
 .portfolio .angle-inner {
   width: 100%;
   margin: 75px 0;
@@ -1089,6 +1104,77 @@ section {
       .portfolio .stripe-last {
         margin-bottom: 0; } }
 
+.sec-portfolio {
+  position: relative; }
+  .sec-portfolio .web-full {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    float: left;
+    height: inherit; }
+    .sec-portfolio .web-full a {
+      width: 25%;
+      height: 200px;
+      position: relative;
+      top: 0;
+      float: left;
+      text-align: left;
+      display: block;
+      background-color: #2b2b2b;
+      color: #FFF;
+      text-transform: uppercase; }
+      .sec-portfolio .web-full a:after {
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: #2b2b2b;
+        border-right: 1px solid transparent;
+        transform-origin: bottom left;
+        -ms-transform: skew(-25deg, 0deg);
+        -webkit-transform: skew(-25deg, 0deg);
+        transform: skew(-25deg, 0deg); }
+  .sec-portfolio .print-full {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    float: left;
+    height: inherit; }
+    .sec-portfolio .print-full a {
+      width: 25%;
+      height: 200px;
+      position: relative;
+      top: 70%;
+      float: right;
+      text-align: right;
+      display: block;
+      background-color: #2b2b2b;
+      color: #FFF;
+      text-transform: uppercase; }
+      .sec-portfolio .print-full a:after {
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: #2b2b2b;
+        border-left: 1px solid transparent;
+        transform-origin: top right;
+        -ms-transform: skew(-25deg, 0deg);
+        -webkit-transform: skew(-25deg, 0deg);
+        transform: skew(-25deg, 0deg); }
+
 .site-footer {
   clear: both;
   width: 100%;
@@ -1109,5 +1195,55 @@ section {
 #map {
   width: 100%;
   height: 100%; }
+
+/*
+PRESS CSS
+*/
+div.press-speakers {
+  margin: 0 auto;
+  margin-top: 25px;
+  float: left;
+  padding: 0 30px; }
+
+.press-section {
+  border-bottom: 0;
+  clear: both;
+  float: none; }
+
+.press-profile {
+  float: left;
+  margin-right: 20px;
+  /*margin-left: 150px;*/ }
+
+h1.press-h1 {
+  background-color: #6772B7;
+  font-size: 2em;
+  width: 35%;
+  text-align: right;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+  box-shadow: 20px 20px 0 #353c69; }
+
+/*p.speaker-p {*/
+/*margin-right: 150px;*/
+/*}*/
+div#press-twitter {
+  background-color: #90d1bb;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px; }
+
+div#press-instagram {
+  text-align: center; }
+
+/*div.timeline-Widget {*/
+/*border-radius: 0 !important;*/
+/*}*/
+/*.btn {*/
+/*background-color: #90d1bb !important;*/
+/*}*/
+@media (max-width: 649px) {
+  .speaker-text {
+    float: left; } }
 
 /*# sourceMappingURL=style.css.map */
