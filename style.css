@@ -665,6 +665,20 @@ ul#demo-nav {
 html {
   overflow-x: hidden; }
 
+body {
+  position: relative;
+  z-index: 1;
+  height: auto !important; }
+  body:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    z-index: -1;
+    background: url("images/pattern_large.png") top center fixed;
+    background-size: cover; }
+
 p {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   line-height: 22px;
@@ -672,6 +686,16 @@ p {
 
 .site-branding {
   height: 100vh; }
+  .site-branding:before {
+    content: '';
+    background: url("images/pattern.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: -1; }
   .site-branding img {
     width: 60%;
     margin: 0 auto;
@@ -1197,44 +1221,51 @@ section {
   width: 100%;
   height: 100%; }
 
-/*
-PRESS CSS
-*/
-div.press-speakers {
-  margin: 0 auto;
-  margin-top: 25px;
-  float: left;
-  padding: 0 30px; }
-
-.press-section {
-  border-bottom: 0;
+.press {
+  height: auto;
   clear: both;
-  float: none; }
+  border: none; }
+  .press::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .press h1 {
+    background-color: #6772B7;
+    font-size: 2em;
+    width: 35%;
+    text-align: right;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    box-shadow: 20px 20px 0 #353c69; }
+  .press .speakers {
+    float: left;
+    width: 100%;
+    margin: 25px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8); }
+    .press .speakers .profile {
+      width: calc(25% - 25px);
+      float: left;
+      margin-left: 20px;
+      text-align: center; }
+      .press .speakers .profile img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto; }
+    .press .speakers .text {
+      width: calc(66.66667% - 33.33333px);
+      float: left;
+      margin-left: 20px; }
 
-.press-profile {
-  float: left;
-  margin-right: 20px;
-  /*margin-left: 150px;*/ }
+#press-twitter {
 
-h1.press-h1 {
-  background-color: #6772B7;
-  font-size: 2em;
-  width: 35%;
-  text-align: right;
-  padding: 20px 40px;
-  margin-bottom: 20px;
-  box-shadow: 20px 20px 0 #353c69; }
-
-/*p.speaker-p {*/
-/*margin-right: 150px;*/
-/*}*/
-div#press-twitter {
   background-color: #90d1bb;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 30px; }
 
-div#press-instagram {
+#press-instagram {
+
   text-align: center; }
 
 /*div.timeline-Widget {*/

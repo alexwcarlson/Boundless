@@ -46,16 +46,17 @@
         </nav><!-- #site-navigation -->
 
 
-<?php if (is_page_template('press.php')) : ?>
-    </header><!-- #masthead -->
-
-    <div id="content" class="site-content">
-
-<?php else : ?>
+<<<<<<< HEAD
+<?php if (is_page_template('index.php')){ ?>
         <div class="site-branding">
             <img src="<?php echo get_template_directory_uri() ?>/images/logos/logo-main.png" alt="">
         </div><!-- .site-branding -->
         </header><!-- #masthead -->
 
     <div id="content" class="site-content">
-<?php endif; ?>
+
+<?php }else{ ?>
+    </header><!-- #masthead -->
+
+    <div id="content" class="site-content">
+<?php } ?>

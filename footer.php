@@ -45,14 +45,14 @@
 				<li><a href="">Snapchat</a></li>
 			</ul>
 
-			<p class="copyright">&copy; 2017 Boundless, MCTC Graduate Design Show</p>
-
 
 		<div class="site-info">
-			&copy; 2017 Boundless, MCTC Graduate Design Show
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'boundless' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'boundless' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'boundless' ), 'boundless', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
+			&copy; 2017 Boundless, MCTC Graduate Design Show<br>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'boundless' ) ); ?>">
+				<?php printf( esc_html__( 'Proudly powered by %s', 'boundless' ), 'WordPress' ); ?>
+			</a>
+<!--			<span class="sep"> | </span>-->
+<!--			--><?php //printf( esc_html__( 'Theme: %1$s by %2$s.', 'boundless' ), 'boundless', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
