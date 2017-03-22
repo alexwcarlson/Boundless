@@ -2,6 +2,7 @@
 /*  Template Name: Press Page  */
 get_header(); ?>
 
+
     <section class="press">
         <h1>Guest Speakers</h1>
 
@@ -81,6 +82,5 @@ get_header(); ?>
             </div>
         </div>
     </section>
-
 
 <?php get_footer(); ?>
