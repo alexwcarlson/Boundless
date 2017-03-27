@@ -8,11 +8,21 @@ blockquote {
   font-size: 2rem;
 }
 
+<<<<<<< HEAD
 
 // custom classes
 .welcome {
   article {
     @include grid-column(3);
+=======
+.welcome {
+}
+/*
+// custom classes
+.welcome {
+  article {
+    @include grid-column(12);
+>>>>>>> master
     @include grid-shift(-2);
     float: right;
   }
@@ -41,4 +51,8 @@ blockquote {
     background-size: cover;
   }
 }
+<<<<<<< HEAD
 
+=======
+*/
+>>>>>>> master
