@@ -20,6 +20,9 @@ Description: Custom Wordpress Theme for the Boundless Design Show for graduating
 // user and page specific scss files go here. use semantic naming convention (ie. _boundless-home-page.scss)
 // set up your project to compile to ../style.css to maintain WordPress stylesheet filepath
 
+
+
+
 // DEMO PAGE  > demo.html //
 
 //imports demo.html settings
@@ -27,6 +30,6 @@ Description: Custom Wordpress Theme for the Boundless Design Show for graduating
 
 //imports the boundless color palette and gradient demos
 @import "_demo/color-demo";
-@import "_boundless-base/_vendor/settings.scss";
-@import "_boundless-base/_vendor/snazzy-info-window.scss";
-@import "_boundless-base/_custom.scss";
+
+
+
