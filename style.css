@@ -1,9 +1,11 @@
 @charset "UTF-8";
+
 /*
 Theme Name: Boundless
 Authors: Keisha Bien, Alex Carlson, Matthew Howe, Mai Xiong, Jesse Wollin, Alison Budny, Rebecca Power, Rachel Holtz, Jake Schlichting, Noah Marrow
 Description: Custom Wordpress Theme for the Boundless Design Show for graduating Minneapolis Community and Technical College students.
 */
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2334,6 +2336,7 @@ Description: Custom Wordpress Theme for the Boundless Design Show for graduating
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -2389,6 +2392,7 @@ a img {
 
 * {
   box-sizing: border-box; }
+
 
 .modal label {
   cursor: pointer;
@@ -2477,6 +2481,7 @@ a img {
 
 .modal-open {
   overflow: hidden; }
+
 
 html {
   font-family: "Lato", arial, sans-serif; }
@@ -2629,7 +2634,9 @@ ul.navigation {
   height: 100%;
   width: 0;
   position: fixed;
+
   z-index: 24;
+
   top: 0;
   right: 0;
   transition: all 0.5s ease;
@@ -2692,6 +2699,7 @@ input[type="reset"]:hover,
 footer form textarea[type="reset"]:hover,
 input[type="submit"]:hover,
 footer form textarea[type="submit"]:hover {
+
   background: #ffcc66; }
 
 .boundless-button:active,
@@ -2701,6 +2709,7 @@ input[type="reset"]:active,
 footer form textarea[type="reset"]:active,
 input[type="submit"]:active,
 footer form textarea[type="submit"]:active {
+
   background: #90d1bb; }
 
 .boundless-button {
@@ -2782,6 +2791,7 @@ blockquote {
   font-size: 2rem; }
 
 footer {
+
   clear: both;
   width: 100%;
   background: #58595b;
@@ -2799,12 +2809,14 @@ footer {
   footer .left {
     width: calc(50% - 30px);
     float: left;
+
     margin-left: 20px;
     margin: 0; }
   footer .right {
     width: calc(50% - 30px);
     float: left;
     margin-left: 20px;
+
     text-align: right;
     float: right; }
     footer .right .copyright {
@@ -2818,10 +2830,12 @@ footer {
     float: left;
     margin-left: 20px;
     margin: 10px;
+
     padding: 5px;
     border-radius: 2px;
     border: none;
     box-shadow: none;
+
     background-color: #90d1bb;
     font-family: "Lato", arial, sans-serif;
     font-size: 1.2rem;
@@ -3585,16 +3599,19 @@ section {
   height: 111px;
   width: 46px;
   z-index: 25;
+
   position: fixed;
   top: 0;
   right: 0; }
   .svg-toggle .base {
+
     fill: #347d64; }
   .svg-toggle .tri {
     fill: #90d1bb; }
   .svg-toggle .cls-3 {
     opacity: 0.2;
     mix-blend-mode: multiply; }
+
   .svg-toggle .plus {
     fill: #ffffff;
     transition: transform 1s ease; }
@@ -3687,7 +3704,9 @@ section {
         top: 0;
         left: 0;
         z-index: -1;
+
         background-color: #58595b;
+
         border-right: 1px solid transparent;
         transform-origin: bottom left;
         -ms-transform: skew(-20deg, 0deg);
@@ -3700,6 +3719,7 @@ section {
         .sec-portfolio .web-full a:hover:after {
           background-color: #2b2b2b;
           transition: all 1s ease; }
+
   .sec-portfolio .print-full {
     position: absolute;
     width: 30%;
@@ -3724,6 +3744,7 @@ section {
       font-size: 3em;
       font-weight: 600;
       transition: all 1s ease; }
+
       .sec-portfolio .print-full a:after {
         content: " ";
         position: absolute;
@@ -3733,11 +3754,14 @@ section {
         top: 0;
         left: 0;
         z-index: -1;
+
         background-color: #58595b;
+
         border-left: 1px solid transparent;
         transform-origin: top right;
         -ms-transform: skew(-20deg, 0deg);
         -webkit-transform: skew(-20deg, 0deg);
+
         transform: skew(-20deg, 0deg);
         transition: all 1s ease; }
       .sec-portfolio .print-full a:hover {
@@ -3749,6 +3773,7 @@ section {
 
 .sec-press {
   background: #6772B7; }
+
 
 @media screen and (min-width: 480px) {
   .off-mobile {
@@ -3762,6 +3787,12 @@ section {
   width: 100%;
   height: 100%; }
 
+.wpsms-container {
+  min-height: 200px;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 50px;}
+
 .press {
   height: auto;
   clear: both;
@@ -3770,24 +3801,47 @@ section {
     clear: both;
     content: "";
     display: block; }
+
+  .press .content {
+    margin-top: 150px;  }
   .press h1 {
-    background-color: #6772B7;
-    font-size: 2em;
-    width: 35%;
-    text-align: right;
-    padding: 20px 40px;
-    margin-bottom: 20px;
-    box-shadow: 20px 20px 0 #353c69; }
+    max-width: 75%;
+    min-width: 45%;
+    position: absolute;
+    margin-top: 40px;
+    min-height: 100px;
+    padding: .5% 1%;
+    /*color: $white;*/
+    color: #fff;
+    font-size: 3.5rem;
+    z-index: 100;
+    background-image: url("images/boundless-ribbon.svg");
+    background-position: top right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .press .alumni h1 {
+    margin-top: -75px;
+  }
+  .press .alumni #panelists {
+    padding-left: 100px;
+  }
+  .press h5 {
+    line-height: .5;
+  }
   .press .speakers {
     float: left;
     width: 100%;
-    margin: 25px auto;
-    padding: 30px;
+    margin: 0 auto;
+    padding: 50px;
+
     background: rgba(255, 255, 255, 0.8); }
     .press .speakers .profile {
       width: calc(25% - 25px);
       float: left;
-      margin-left: 20px;
+      margin-left: 50px;
       text-align: center; }
       .press .speakers .profile img {
         width: 100%;
@@ -3798,14 +3852,36 @@ section {
       float: left;
       margin-left: 20px; }
 
+    .press .alumni {
+      background-color: rgba(255, 255, 255, 0.7);
+      padding-bottom: 25px;
+    }
 #press-twitter {
-  background-color: #90d1bb;
-  text-align: center;
+  background-color: rgba(144, 209, 187, 0.7);
   padding-top: 20px;
-  padding-bottom: 30px; }
+  padding-bottom: 65px;
+  padding-left: 100px;
+  padding-right: 100px;}
+  .rotating-tweets {
+    border: none;  }
+  #press-twitter h5 {
+    text-align: center;
+    margin: 50px 0;  }
 
 #press-instagram {
-  text-align: center; }
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  /*margin-bottom: 30px;*/
+  padding-bottom: 50px;
+  padding-right: 100px;
+  padding-left: 100px;}
+  #press-instagram h5{
+     padding: 50px 0;  }
+    #sb_instagram {
+      width: 90%;
+      margin-bottom: 50px;
+    }
+
 
 /*div.timeline-Widget {*/
 /*border-radius: 0 !important;*/
