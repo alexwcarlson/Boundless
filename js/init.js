@@ -1,10 +1,4 @@
-jQuery(window).load(function(){
-    jQuery(updateBoxDimension);
-    jQuery(window).on('resize', updateBoxDimension);
-    initMap();
-
-
-
+jQuery(document).ready(function () {
     var navigation = document.getElementById("myNav");
     jQuery("#toggle").on('click', function(){
         if(!jQuery(navigation).hasClass("open")) {
@@ -26,7 +20,12 @@ jQuery(window).load(function(){
             jQuery(navigation).css({width:'0%'}).removeClass('open');
         }
     });
+});
 
+jQuery(window).load(function(){
+    jQuery(updateBoxDimension);
+    jQuery(window).on('resize', updateBoxDimension);
+    initMap();
 
     function updateBoxDimension() {
         var offsetLeft1 = jQuery( "#first" ).offset();
@@ -76,3 +75,21 @@ function initMap() {
     // });
     // info.open();
 }
+
+jQuery(function() {
+    jQuery("#modal-1").on("change", function() {
+        if (jQuery(this).is(":checked")) {
+            jQuery("body").addClass("modal-open");
+        } else {
+            jQuery("body").removeClass("modal-open");
+        }
+    });
+
+    jQuery(".modal-fade-screen, .modal-close").on("click", function() {
+        jQuery(".modal-state:checked").prop("checked", false).change();
+    });
+
+    jQuery(".modal-inner").on("click", function(e) {
+        e.stopPropagation();
+    });
+});

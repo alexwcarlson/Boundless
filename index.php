@@ -103,15 +103,9 @@ get_header(); ?>
                     </blockquote>
                 </div><!-- .angle -->
             </section>
-            <section>
-                <div class="angle-behind">
-                </div>
-                <div class="">
-                    <div class="angle-inner">
-                        <section class="press">
-                            press
-                        </section>
-                    </div><!-- .angle-inner -->
-                </div><!-- .angle -->
+            <section class="sec-press">
+                       <h4>press</h4>
             </section>
+        </main>
+    </div>
 <?php get_footer();

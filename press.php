@@ -34,7 +34,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="speakers">
+        <div class="speakers clearFix">
             <div class="profile">
                 <img class="alignnone size-medium wp-image-18"
                      src="<?php echo get_template_directory_uri() ?>/images/michelle-schulp.jpeg"

@@ -31,6 +31,15 @@ p {
   font-size: 16px;
 }
 
+a, a:link, a:visited {
+  color: $darkGray;
+  transition: all 1s ease;
+}
+a:hover, a:focus {
+  color: $white;
+  transition: all 1s ease;
+}
+
 .site {
   // this caused a random scroll bar in keisha's browser
   //overflow-x: hidden;
@@ -49,7 +58,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    max-height: 2500px;
+    //max-height: 2500px;
     opacity: 1;
     z-index: -1;
   }
@@ -91,6 +100,8 @@ p {
 section {
   position: relative;
 }
+
+
 
 .angle-behind {
   height: 100%;
@@ -252,6 +263,7 @@ section {
   top: 38%;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
+
   .tri {
     width: 0px;
     height: 0px;
@@ -284,18 +296,20 @@ section {
 }
 
 .svg-toggle {
-  height: 100px;
-  z-index: 30;
+  height: 111px;
+  width: 46px;
+  z-index: 25;
   position: fixed;
   top: 0;
   right: 0;
 
   .base {
-    fill: #4B6766;
+    fill: $darkGreen;
   }
   .tri {
-    fill: #3AA8A7;
+    fill: $green;
   }
+  .cls-3{opacity:0.2;mix-blend-mode:multiply;}
   .plus {
     fill: $white;
     transition: transform 1s ease;
@@ -389,9 +403,6 @@ section {
     height: inherit;
 
 
-
-
-
     a {
       width: 100%;
       height: 150px;
@@ -408,7 +419,7 @@ section {
       font-size: 3em;
       font-weight: 600;
       ////transform: skewX( -$desktop-angle );
-
+      transition: all 1s ease;
 
       &:after {
         content: " ";
@@ -420,17 +431,27 @@ section {
         left: 0;
         z-index: -1;
 
-        background: $gray;
+        background-color: $gray;
         border-right: 1px solid transparent;
 
         transform-origin: bottom left;
         -ms-transform: skew(-$desktop-angle, 0deg);
         -webkit-transform: skew(-$desktop-angle, 0deg);
         transform: skew(-$desktop-angle, 0deg);
-
+        transition: all 1s ease;
       }
 
-  }
+      &:hover {
+        background-color: $darkGray;
+        transition: all 1s ease;
+        &:after {
+          background-color: $darkGray;
+          transition: all 1s ease;
+        }
+
+      }
+    }
+
   }
   .print-full {
     position: absolute;
@@ -456,6 +477,7 @@ section {
       font-family: $heading-stack;
       font-size: 3em;
       font-weight: 600;
+      transition: all 1s ease;
 
       &:after {
         content: " ";
@@ -467,28 +489,36 @@ section {
         left: 0;
         z-index: -1;
 
-        background: $gray;
+        background-color: $gray;
         border-left: 1px solid transparent;
 
         transform-origin: top right;
         -ms-transform: skew(-$desktop-angle, 0deg);
         -webkit-transform: skew(-$desktop-angle, 0deg);
         transform: skew(-$desktop-angle, 0deg);
+        transition: all 1s ease;
       }
 
+
+      &:hover {
+        background-color: $darkGray;
+        transition: all 1s ease;
+        &:after {
+          background-color: $darkGray;
+          transition: all 1s ease;
+        }
+
+      }
     }
   }
+
+
 }
 
-.site-footer {
-  clear: both;
-  width: 100%;
-  background: #00A8EF;
-  padding: 4rem;
-  position: relative;
-  z-index: 25;
-  margin-bottom: -1rem;
+.sec-press {
+  background: $purple;
 }
+
 
 .off-mobile {
   @media screen and (min-width: 480px) {
