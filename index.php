@@ -28,6 +28,7 @@ get_header(); ?>
                     <div class="angle-inner">
                         <article class="content">
                             <div data-lining>
+                                <p>Howdy!</p>
                                 <p>Typography (from the Greek words τύπος typos "form" and γράφειν graphein "to write")
                                     is the art and technique of arranging type to make written language most appealing
                                     to learning and recognition. The arrangement of type involves selecting typefaces,
