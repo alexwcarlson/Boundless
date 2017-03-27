@@ -27,8 +27,10 @@ get_header(); ?>
                     </h2>
                     <div class="angle-inner">
                         <article class="content">
+
                             <div data-lining>
                                 <p>Howdy!</p>
+
                                 <p>Typography (from the Greek words τύπος typos "form" and γράφειν graphein "to write")
                                     is the art and technique of arranging type to make written language most appealing
                                     to learning and recognition. The arrangement of type involves selecting typefaces,
@@ -45,6 +47,7 @@ get_header(); ?>
                     <blockquote>
                         <h3 class="bottom-header">May 3 - 4<br>
                             <small>Minneapolis Community <br>& Technical College</small>
+
                         </h3>
                     </blockquote>
                 </div><!-- .angle -->
@@ -83,7 +86,9 @@ get_header(); ?>
                     <h2 class="location-wrap">we are boundless</h2>
                     <div class="angle-inner">
                         <article class="content">
+
                             <div data-lining>
+
                                 <p>Typography (from the Greek words τύπος typos "form" and γράφειν graphein "to write")
                                     is the art and technique of arranging type to make written language most appealing
                                     to learning and recognition. The arrangement of type involves selecting typefaces,
@@ -98,21 +103,19 @@ get_header(); ?>
                         </article><!-- .content -->
                     </div><!-- .angle-inner -->
                     <blockquote>
+
                         <h3 class="bottom-header">May 3 - May 4<br>
                             <small>Minneapolis Community <br> & Technical College</small>
+
                         </h3>
                     </blockquote>
                 </div><!-- .angle -->
             </section>
-            <section>
-                <div class="angle-behind">
-                </div>
-                <div class="">
-                    <div class="angle-inner">
-                        <section class="press">
-                            press
-                        </section>
-                    </div><!-- .angle-inner -->
-                </div><!-- .angle -->
+
+            <section class="sec-press">
+                       <h4>press</h4>
             </section>
+        </main>
+    </div>
+
 <?php get_footer();

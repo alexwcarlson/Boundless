@@ -6,6 +6,9 @@ get_header(); ?>
     <section class="press">
         <h1>Guest Speakers</h1>
 
+
+        <div class="content">
+
         <div class="speakers">
             <div class="profile">
                 <img class="size-medium wp-image-19"
@@ -14,9 +17,12 @@ get_header(); ?>
             </div>
 
             <div class="text">
-                <strong>Tim Brunelle</strong><br/>
-                Tuesday, May 2nd<br/>
-                5:00 PM
+
+
+                <h5><strong>Tim Brunelle</strong></h5>
+                <h6>Tuesday, May 2nd
+                    5:00 PM</h6>
+
                 <p>
                     Tim Brunelle has been at the forefront of marketing innovation and storytelling since
                     1992. He's developed brand strategy, directed films, written and directed advertising
@@ -35,50 +41,72 @@ get_header(); ?>
         </div>
 
         <div class="speakers">
+
             <div class="profile">
                 <img class="alignnone size-medium wp-image-18"
                      src="<?php echo get_template_directory_uri() ?>/images/michelle-schulp.jpeg"
                      alt=""/>
             </div>
             <div class="text">
-                <strong>Michelle Schulp</strong><br/>
-                Wednesday, May 3rd<br/>
-                5:00 PM
 
-                <p>
-                    Michelle is an independent graphic designer and frontend developer in Minneapolis. Prior to
-                    beginning her career, she studied Visual Communications, with minors in Psychology and Sociology. As
-                    her work progressed, she also branched into front-end development and user experience design to
-                    round out her skillset. This combination of disciplines led her to adopt a strategy-based approach
-                    to design, focused on solving tangible problems and achieving real goals based on how people think.
+                <h5><strong>Michelle Schulp</strong></h5>
+                    <h6>Wednesday, May 3rd
+                        5:00 PM</h6>
 
-                    She loves the open source community, and when she is not working on projects she
-                    speaks/volunteers/organizes at events and workshops around the country. Her passions are
-                    communication and empowerment, and she believes in the power of "Why?"
-                </p>
+                    <p>
+                        Michelle is an independent graphic designer and frontend developer in Minneapolis. Prior to
+                        beginning her career, she studied Visual Communications, with minors in Psychology and Sociology. As
+                        her work progressed, she also branched into front-end development and user experience design to
+                        round out her skillset. This combination of disciplines led her to adopt a strategy-based approach
+                        to design, focused on solving tangible problems and achieving real goals based on how people think.
+
+                        She loves the open source community, and when she is not working on projects she
+                        speaks/volunteers/organizes at events and workshops around the country. Her passions are
+                        communication and empowerment, and she believes in the power of "Why?"
+                    </p>
+                </div>
             </div>
         </div>
     </section>
-
+    <section class="press">
+        <div class="alumni">
+            <h1>Alumni</h1>
+            <div class="content" id="panelists">
+                <h6>May 2 @ 1:00 PM</h6>
+                <ul>
+                    <li>Laurel Johnson</li>
+                    <li>Claire Campbell</li>
+                    <li>Aaron Hurst - tentative panelist</li>
+                    <li>Jerrald (Jay) Spencer</li>
+                    <li>Damien Kirchoff</li>
+                    <li>Rudy Fig (aka Sierra Riggs)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <section class="press">
         <h1>Connect</h1>
+        <div class="content">
         <div id="press-twitter">
-            <h3>TWITTER</h3>
-            <a class="twitter-timeline" data-lang="en" data-width="960" data-height="300" data-theme="light"
-               data-link-color="#90d1bb" data-chrome="noheader nofooter noborders"
-               href="https://twitter.com/mctcdesign2017">Tweets by mctcdesign2017</a>
-            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-            <br/><br/>
-
-            <a href="https://twitter.com/mctcdesign2017" class="twitter-follow-button" data-size="large"
-               data-show-count="false">Follow @mctcdesign2017</a>
-            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <h5>TWITTER</h5>
+            <?php echo do_shortcode( '[wp-social-media-slider]' ); ?>
+            <div class="sbi_follow_btn" style="text-align: center;">
+                <a href="http://twitter.com/mctcdesign2017" style="background: #3aa8a7; color: #fff; padding: 15px; text-align: center;" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                    Follow on Twitter
+                </a>
+            </div>
         </div>
+
         <div id="press-instagram">
-            <h3>INSTAGRAM</h3>
-            <div class="instagram-feed">
-                <!--            <iframe src="//users.instush.com/info-slider/?cols=5&pin=false&bg=ffffff&obg=90d1bb&color=000000&user_id=2116260091&username=mxiong97&sid=-1&susername=-1&tag=-1&stype=mine&t=999999WPRV88vN8iUYkIUINk1TFhk12n6pAQmRzkOxBiWEUSQPcJAl_lzh_WExuGeGdcHCacS2okpfjTY" allowtransparency="true" frameborder="0" scrolling="no"  style="display:block;max-width:498px;width:100%;height:290px;border:none;overflow:visible; margin: 0 auto;" ></iframe>-->
+            <h5>INSTAGRAM</h5>
+            <?php echo do_shortcode(' [instagram-feed] '); ?>
+            <div class="sbi_follow_btn" style="text-align: center;">
+                <a href="http://instagram.com/mctcdesign2017" style="background: #3aa8a7; color: #fff; padding: 15px;" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                    Follow on Instagram
+                </a>
+            </div>
             </div>
         </div>
     </section>

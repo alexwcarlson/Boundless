@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f23ee34a-96fb-417e-955b-1d8926bf742a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/05dba66540e47adfe0be23200843351c17fac465/_boundless-color.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/2d13a8e1875eac7bd5d8495a4f1787e4e0b77ce6/_custom.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/43ad57c1697b598e8d644741ebb33a8220201cff/_boundless-navigation-styles.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/5643ef3fcb3ca5701f4ddc9c90ae3bbbcbdf76d4/style.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/640492ad04cdf9658ea1e3f91a2a52af1e526fd2/_boundless-mixins.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/738123580d02a407907fd1b562db24d87f2d4f09/_boundless-footer.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/3618BC9D.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/3618BC9E.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/3618BC9F.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Insignia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Boundless.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/keisha.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Insignia.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/HELP-US-OUT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/font-awesome/scss/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/8093066_300x300.jpg" afterPath="$PROJECT_DIR$/images/8093066_300x300.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Background_40-01.jpg" afterPath="$PROJECT_DIR$/images/Background_40-01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Background_6-01.jpg" afterPath="$PROJECT_DIR$/images/Background_6-01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/BoundlessPattern-lg.png" afterPath="$PROJECT_DIR$/images/BoundlessPattern-lg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/BoundlessPattern-no-crop.png" afterPath="$PROJECT_DIR$/images/BoundlessPattern-no-crop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/BoundlessPattern-no-crop2.png" afterPath="$PROJECT_DIR$/images/BoundlessPattern-no-crop2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/BoundlessPattern-sm.png" afterPath="$PROJECT_DIR$/images/BoundlessPattern-sm.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/BoundlessPattern-sm2.png" afterPath="$PROJECT_DIR$/images/BoundlessPattern-sm2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/BoundlessPattern.png" afterPath="$PROJECT_DIR$/images/BoundlessPattern.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logos/logo-main-white.png" afterPath="$PROJECT_DIR$/images/logos/logo-main-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logos/logo-main.png" afterPath="$PROJECT_DIR$/images/logos/logo-main.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/michelle-schulp.jpeg" afterPath="$PROJECT_DIR$/images/michelle-schulp.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/navigation-tab.ai" afterPath="$PROJECT_DIR$/images/navigation-tab.ai" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pattern.png" afterPath="$PROJECT_DIR$/images/pattern.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pattern_large.png" afterPath="$PROJECT_DIR$/images/pattern_large.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/patternsmall.png" afterPath="$PROJECT_DIR$/images/patternsmall.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/80x60.gif" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/80x60.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/chrome_256x256.png" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/chrome_256x256.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/firefox_256x256.png" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/firefox_256x256.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/hamlet.jpg" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/hamlet.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/opera_256x256.png" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/opera_256x256.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/safari-ios_256x256.png" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/safari-ios_256x256.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/safari_256x256.png" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/safari_256x256.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/lib/jasmine-2.0.2/jasmine_favicon.png" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/lib/jasmine-2.0.2/jasmine_favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master.zip" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/complex-styles/screenshot.png" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/complex-styles/screenshot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/dynamic-content/screenshot.png" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/dynamic-content/screenshot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/js-styles/screenshot.png" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/js-styles/screenshot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/multiple-markers/screenshot.png" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/multiple-markers/screenshot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/scss-styles/screenshot.png" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/scss-styles/screenshot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/simple/screenshot.png" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/simple/screenshot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/test/favicon.ico" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/test/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive.php" afterPath="$PROJECT_DIR$/archive.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.html" afterPath="$PROJECT_DIR$/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/BoundlessPattern-cropped-faded.svg" afterPath="$PROJECT_DIR$/images/BoundlessPattern-cropped-faded.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/BoundlessPattern-cropped.svg" afterPath="$PROJECT_DIR$/images/BoundlessPattern-cropped.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/BoundlessPattern-no-crop.svg" afterPath="$PROJECT_DIR$/images/BoundlessPattern-no-crop.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/boundless-ribbon.svg" afterPath="$PROJECT_DIR$/images/boundless-ribbon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/box.svg" afterPath="$PROJECT_DIR$/images/box.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/menu-toggle.svg" afterPath="$PROJECT_DIR$/images/menu-toggle.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/custom-header.php" afterPath="$PROJECT_DIR$/inc/custom-header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/customizer.php" afterPath="$PROJECT_DIR$/inc/customizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/extras.php" afterPath="$PROJECT_DIR$/inc/extras.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/jetpack.php" afterPath="$PROJECT_DIR$/inc/jetpack.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/template-tags.php" afterPath="$PROJECT_DIR$/inc/template-tags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/customizer.js" afterPath="$PROJECT_DIR$/js/customizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/init.js" afterPath="$PROJECT_DIR$/js/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/navigation.js" afterPath="$PROJECT_DIR$/js/navigation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/skip-link-focus-fix.js" afterPath="$PROJECT_DIR$/js/skip-link-focus-fix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/lining.effect.js" afterPath="$PROJECT_DIR$/js/vendor/lining.effect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/lining.js" afterPath="$PROJECT_DIR$/js/vendor/lining.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/map.styles.js" afterPath="$PROJECT_DIR$/js/vendor/map.styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/snazzy-info-window.js" afterPath="$PROJECT_DIR$/js/vendor/snazzy-info-window.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/boundless.pot" afterPath="$PROJECT_DIR$/languages/boundless.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/readme.txt" afterPath="$PROJECT_DIR$/languages/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/press-style.css" afterPath="$PROJECT_DIR$/press-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/press.php" afterPath="$PROJECT_DIR$/press.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_boundless-base.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_boundless-base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_buttons/_boundless-buttons.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_buttons/_boundless-buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_color/_boundless-color.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_color/_boundless-color.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_custom.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_custom.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_layout/_boundless-footer.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_layout/_boundless-footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_layout/_boundless-html-body.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_layout/_boundless-html-body.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_layout/_boundless-layout.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_layout/_boundless-layout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_mixins/_boundless-mixins.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_mixins/_boundless-mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_navigation/_boundless-navigation-styles.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_navigation/_boundless-navigation-styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_typography/_boundless-typography.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_typography/_boundless-typography.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_utilities/_media-queries.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_utilities/_media-queries.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_utilities/_reset.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_utilities/_reset.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_variables/_boundless-variables.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_variables/_boundless-variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_vendor/_settings.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_vendor/_settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/_vendor/_snazzy-info-window.scss" afterPath="$PROJECT_DIR$/sass/_boundless-base/_vendor/_snazzy-info-window.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/snazzy-info-window.css" afterPath="$PROJECT_DIR$/sass/_boundless-base/snazzy-info-window.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_boundless-base/snazzy-info-window.css.map" afterPath="$PROJECT_DIR$/sass/_boundless-base/snazzy-info-window.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_demo/_color-demo.scss" afterPath="$PROJECT_DIR$/sass/_demo/_color-demo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_demo/_demo.scss" afterPath="$PROJECT_DIR$/sass/_demo/_demo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/_bourbon-deprecate.scss" afterPath="$PROJECT_DIR$/sass/bourbon/_bourbon-deprecate.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/_bourbon-deprecated-upcoming.scss" afterPath="$PROJECT_DIR$/sass/bourbon/_bourbon-deprecated-upcoming.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/_bourbon.scss" afterPath="$PROJECT_DIR$/sass/bourbon/_bourbon.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_border-color.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_border-color.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_border-radius.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_border-radius.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_border-style.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_border-style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_border-width.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_border-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_buttons.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_clearfix.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_clearfix.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_ellipsis.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_ellipsis.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_font-stacks.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_font-stacks.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_hide-text.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_hide-text.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_margin.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_margin.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_padding.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_padding.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_position.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_position.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_prefixer.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_prefixer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_retina-image.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_retina-image.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_size.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_size.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_text-inputs.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_text-inputs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_timing-functions.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_timing-functions.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_triangle.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_triangle.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/addons/_word-wrap.scss" afterPath="$PROJECT_DIR$/sass/bourbon/addons/_word-wrap.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_animation.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_animation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_appearance.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_appearance.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_backface-visibility.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_backface-visibility.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_background-image.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_background-image.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_background.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_background.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_border-image.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_border-image.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_calc.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_calc.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_columns.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_columns.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_filter.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_filter.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_flex-box.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_flex-box.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_font-face.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_font-face.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_font-feature-settings.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_font-feature-settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_hidpi-media-query.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_hidpi-media-query.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_hyphens.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_hyphens.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_image-rendering.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_image-rendering.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_keyframes.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_keyframes.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_linear-gradient.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_linear-gradient.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_perspective.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_perspective.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_placeholder.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_placeholder.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_radial-gradient.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_radial-gradient.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_selection.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_selection.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_text-decoration.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_text-decoration.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_transform.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_transform.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_transition.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_transition.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/css3/_user-select.scss" afterPath="$PROJECT_DIR$/sass/bourbon/css3/_user-select.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_assign-inputs.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_assign-inputs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_contains-falsy.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_contains-falsy.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_contains.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_contains.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_is-length.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_is-length.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_is-light.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_is-light.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_is-number.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_is-number.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_is-size.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_is-size.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_modular-scale.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_modular-scale.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_px-to-em.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_px-to-em.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_px-to-rem.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_px-to-rem.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_shade.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_shade.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_strip-units.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_strip-units.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_tint.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_tint.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_transition-property-name.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_transition-property-name.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/functions/_unpack.scss" afterPath="$PROJECT_DIR$/sass/bourbon/functions/_unpack.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_convert-units.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_convert-units.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_directional-values.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_directional-values.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_font-source-declaration.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_font-source-declaration.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_gradient-positions-parser.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_gradient-positions-parser.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_linear-angle-parser.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_linear-angle-parser.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_linear-gradient-parser.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_linear-gradient-parser.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_linear-positions-parser.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_linear-positions-parser.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_linear-side-corner-parser.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_linear-side-corner-parser.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_radial-arg-parser.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_radial-arg-parser.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_radial-gradient-parser.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_radial-gradient-parser.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_radial-positions-parser.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_radial-positions-parser.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_render-gradients.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_render-gradients.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_shape-size-stripper.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_shape-size-stripper.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/helpers/_str-to-num.scss" afterPath="$PROJECT_DIR$/sass/bourbon/helpers/_str-to-num.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/settings/_asset-pipeline.scss" afterPath="$PROJECT_DIR$/sass/bourbon/settings/_asset-pipeline.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/settings/_deprecation-warnings.scss" afterPath="$PROJECT_DIR$/sass/bourbon/settings/_deprecation-warnings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/settings/_prefixer.scss" afterPath="$PROJECT_DIR$/sass/bourbon/settings/_prefixer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bourbon/settings/_px-to-em.scss" afterPath="$PROJECT_DIR$/sass/bourbon/settings/_px-to-em.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/_neat.scss" afterPath="$PROJECT_DIR$/sass/neat/_neat.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-append-grid-visual.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-append-grid-visual.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-column-default.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-column-default.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-column-ratio.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-column-ratio.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-column-width.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-column-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-float-direction.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-float-direction.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-merge-defaults.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-merge-defaults.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-opposite-direction.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-opposite-direction.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-parse-columns.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-parse-columns.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-parse-media.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/functions/_neat-parse-media.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/functions/_retrieve-neat-settings.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/functions/_retrieve-neat-settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-collapse.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-collapse.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-column.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-column.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-container.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-container.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-media.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-media.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-push.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-push.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-shift.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-shift.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-visual.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/mixins/_grid-visual.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/neat/neat/settings/_settings.scss" afterPath="$PROJECT_DIR$/sass/neat/neat/settings/_settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single.php" afterPath="$PROJECT_DIR$/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css.map" afterPath="$PROJECT_DIR$/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/content-none.php" afterPath="$PROJECT_DIR$/template-parts/content-none.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/content-page.php" afterPath="$PROJECT_DIR$/template-parts/content-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/content-search.php" afterPath="$PROJECT_DIR$/template-parts/content-search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/content.php" afterPath="$PROJECT_DIR$/template-parts/content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/.gitignore" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/.travis.yml" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/Gruntfile.js" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/MIT-LICENTSE.txt" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/MIT-LICENTSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/README.md" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/SpecRunner.html" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/SpecRunner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/index.css" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/jquery-1.10.2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/normalize.css" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/normalize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/prism.css" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/prism.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/prism.js" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/prism.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/test.css" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/assets/test.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/bower.json" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/build/lining.effect.min.js" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/build/lining.effect.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/build/lining.min.js" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/build/lining.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/index.html" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/index_cn.html" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/index_cn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/lib/jasmine-2.0.2/boot.js" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/lib/jasmine-2.0.2/boot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/lib/jasmine-2.0.2/console.js" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/lib/jasmine-2.0.2/console.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/lib/jasmine-2.0.2/jasmine-html.js" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/lib/jasmine-2.0.2/jasmine-html.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/lib/jasmine-2.0.2/jasmine.css" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/lib/jasmine-2.0.2/jasmine.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/lib/jasmine-2.0.2/jasmine.js" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/lib/jasmine-2.0.2/jasmine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/package.json" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/spec/lining.js" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/spec/lining.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/spec/surroundContents.js" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/spec/surroundContents.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/spec/util.js" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/spec/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/src/lining.min.js" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/src/lining.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lining.js-0.3.3/test.html" afterPath="$PROJECT_DIR$/vendor/lining.js-0.3.3/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/.editorconfig" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/.eslintignore" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/.eslintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/.eslintrc" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/.gitattributes" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/.gitignore" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/.sass-lint.yml" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/.sass-lint.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/LICENSE" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/README.md" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/bower.json" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/_settings.scss" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/_settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.css" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.js" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.min.css" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.min.css.map" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.min.js" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.min.js.map" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.scss" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/dist/snazzy-info-window.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/.eslintrc" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/README.md" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/complex-styles/index.html" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/complex-styles/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/complex-styles/scripts.js" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/complex-styles/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/complex-styles/styles.css" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/complex-styles/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/complex-styles/styles.css.map" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/complex-styles/styles.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/complex-styles/styles.scss" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/complex-styles/styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/dynamic-content/index.html" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/dynamic-content/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/dynamic-content/scripts.js" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/dynamic-content/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/js-styles/index.html" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/js-styles/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/js-styles/scripts.js" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/js-styles/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/multiple-markers/index.html" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/multiple-markers/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/multiple-markers/scripts.js" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/multiple-markers/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/scss-styles/index.html" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/scss-styles/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/scss-styles/scripts.js" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/scss-styles/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/scss-styles/styles.css" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/scss-styles/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/scss-styles/styles.css.map" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/scss-styles/styles.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/scss-styles/styles.scss" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/scss-styles/styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/simple/index.html" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/simple/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/simple/scripts.js" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/simple/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/styles.css" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/styles.css.map" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/examples/styles.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/gulpfile.js" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/package.json" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/src/scss/_settings.scss" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/src/scss/_settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/src/scss/snazzy-info-window.scss" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/src/scss/snazzy-info-window.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/src/snazzy-info-window.css" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/src/snazzy-info-window.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/src/snazzy-info-window.css.map" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/src/snazzy-info-window.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/src/snazzy-info-window.js" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/src/snazzy-info-window.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/test/css/index.css" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/test/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/test/index.html" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/test/multi.html" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/test/multi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/test/scripts/index.js" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/test/scripts/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/snazzy-info-window-master/test/scripts/multi.js" afterPath="$PROJECT_DIR$/vendor/snazzy-info-window-master/test/scripts/multi.js" />
+    </list>
+    <ignored path="Boundless.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Boundless" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3864">
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7056">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_neat.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/neat/_neat.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css.map" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css.map">
+          <provider editor-type-id="sourcemapFileViewerProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1112">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-343">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="press.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/press.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="press-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/press-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1519">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/neat/_neat.scss" />
+        <option value="$PROJECT_DIR$/css/neat/neat/functions/_neat-column-width.scss" />
+        <option value="$PROJECT_DIR$/css/neat/neat/mixins/_grid-column.scss" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/sass/style.scss" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/style.css.map" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/press.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-14" />
+    <option name="width" value="3856" />
+    <option name="height" value="2074" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boundless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boundless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boundless" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boundless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boundless" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boundless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boundless" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boundless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boundless" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/wamp/www/Boundless/css/style.scss" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f23ee34a-96fb-417e-955b-1d8926bf742a" name="Default" comment="" />
+      <created>1487022600167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1487022600167</updated>
+      <workItem from="1487022601445" duration="1473000" />
+      <workItem from="1488215170621" duration="11957000" />
+      <workItem from="1488743486567" duration="1083000" />
+      <workItem from="1488862173881" duration="106000" />
+      <workItem from="1489037598304" duration="595000" />
+      <workItem from="1489430037958" duration="59000" />
+      <workItem from="1490641663549" duration="201000" />
+      <workItem from="1490642663470" duration="451000" />
+      <workItem from="1490647810732" duration="1527000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17452000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-14" y="0" width="3856" height="2074" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14957036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965758" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="29" column="87" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#441#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#441#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2688">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#441#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/neat/mixins/_grid-column.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/neat/functions/_neat-column-width.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/neat/settings/_settings.scss" />
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="e#6#441#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/_neat.scss" />
+    <entry file="file://$PROJECT_DIR$/bourbon/_bourbon.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/grid/_row.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/grid/_outer-container.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/grid/_pad.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/settings/_visual-grid.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/grid/_visual-grid.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/settings/_grid.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/_neat-helpers.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/_neat.scss" />
+    <entry file="file://$PROJECT_DIR$/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/css/neat/neat/mixins/_grid-container.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/neat/settings/_settings.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/neat/functions/_neat-column-width.scss" />
+    <entry file="file://$PROJECT_DIR$/css/neat/neat/mixins/_grid-column.scss" />
+    <entry file="file://$PROJECT_DIR$/images/Background_6-01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss" />
+    <entry file="file://$PROJECT_DIR$/images/logos/logo-main.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="2349" column="36" selection-start-line="2349" selection-start-column="36" selection-end-line="2349" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="917">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#441#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1112">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/press-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1519">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/press.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3864">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7056">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/neat/_neat.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

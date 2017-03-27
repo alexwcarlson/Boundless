@@ -33,7 +33,11 @@ ul.navigation{
 	height: 100%;
 	width: 0;
 	position: fixed;
+<<<<<<< HEAD
 	z-index: 25;
+=======
+	z-index: 24;
+>>>>>>> b00ea94448dd4685b4fee459cb88537ec2b01029
 	top: 0;
 	right: 0;
 	transition: all 0.5s ease;
@@ -80,4 +84,15 @@ ul.navigation{
 }
 .overlay a:hover, .overlay a:focus {
 	color: #f1f1f1;
+<<<<<<< HEAD
+=======
+}
+
+.header-logo {
+	img {
+		margin: 10px;
+		width: 100%;
+		max-width: 100px;
+	}
+>>>>>>> b00ea94448dd4685b4fee459cb88537ec2b01029
 }
