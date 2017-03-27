@@ -81,26 +81,23 @@ get_header(); ?>
         <div class="content">
         <div id="press-twitter">
             <h5>TWITTER</h5>
-            <a class="twitter-timeline" data-lang="en" data-width="960" data-height="600" data-theme="light"
-               data-link-color="#90d1bb" data-chrome="noheader nofooter noborders"
-               href="https://twitter.com/mctcdesign2017">Tweets by mctcdesign2017</a>
-            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-            <br/><br/>
-
-            <a href="https://twitter.com/mctcdesign2017" class="twitter-follow-button" data-size="large"
-               data-show-count="false">Follow @mctcdesign2017</a>
-            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<!--            --><?php //echo do_shortcode("[rotatingtweets screen_name="\mxiong97\" include_rts="\1\" links_in_new_window="\1\" rotation_type="\scrollLeft\" large_follow_button="\1\" ]");
-//                echo do_shortcode('[rotatingtweets screen_name=\'mctcdesign2017\']');
-
-            ?>
+            <?php echo do_shortcode( '[wp-social-media-slider]' ); ?>
+            <div class="sbi_follow_btn" style="text-align: center;">
+                <a href="http://twitter.com/mctcdesign2017" style="background: #3aa8a7; color: #fff; padding: 15px; text-align: center;" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                    Follow on Twitter
+                </a>
+            </div>
         </div>
 
         <div id="press-instagram">
             <h5>INSTAGRAM</h5>
-            <div class="instagram-feed">
-                <iframe src="//users.instush.com/collage/?cols=12&rows=5&sl=true&user_id=4543433049&username=mctcdesign2017&sid=-1&susername=-1&tag=-1&stype=mine&bg=transparent&space=false&rd=false&grd=false&gpd=0&drp=false&pin=false&t=999999jzQ3OnmXIBVQVfMTOzNw_4ML9gOljARFLogfY1xNiHBwYo1rNfcQqNGxUPpgHzt1sh9GfQLY0wI" allowtransparency="true" frameborder="0" scrolling="no"  style="display:block;width:1236px;height:515px;border:none;overflow:visible; margin: 0 auto;" ></iframe>
+            <?php echo do_shortcode(' [instagram-feed] '); ?>
+            <div class="sbi_follow_btn" style="text-align: center;">
+                <a href="http://instagram.com/mctcdesign2017" style="background: #3aa8a7; color: #fff; padding: 15px;" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                    Follow on Instagram
+                </a>
             </div>
             </div>
         </div>
