@@ -508,15 +508,11 @@ section {
     }
   }
 }
-.site-footer {
-  clear: both;
-  width: 100%;
-  background: #00A8EF;
-  padding: 4rem;
-  position: relative;
-  z-index: 25;
-  margin-bottom: -1rem;
+
+.sec-press {
+  background: $purple;
 }
+
 
 .off-mobile {
   @media screen and (min-width: 480px) {
