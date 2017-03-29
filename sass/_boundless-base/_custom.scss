@@ -25,6 +25,17 @@ body {
   }
 }
 
+a, a:link, a:visited {
+  color: $darkGray;
+  transition: all .5s ease;
+}
+
+a:hover, a:focus {
+  color: $white;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+
 p {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   line-height: 22px;
@@ -38,8 +49,8 @@ p {
 
 .site-branding {
   height: 100vh;
-  @media screen and (max-width: 480px) {
-   height: 40vh;
+  @media screen and (max-width: 767px) {
+    height: 40vh;
   }
   &:before {
     content: '';
@@ -61,12 +72,18 @@ p {
     margin: 0 auto;
     padding-top: 20%;
     display: block;
+
+    @media screen and (max-width: 767px) {
+      width: 90%;
+      padding-top: 30%;
+    }
+
   }
 }
 
 .welcome {
   margin-left: 60%;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 767px) {
     margin-left: 0;
   }
 }
@@ -75,13 +92,18 @@ p {
   @media screen and (max-width: 980px) {
     margin-left: 40%;
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 767px) {
     margin-left: 0;
   }
 }
 
 #second, #third {
   margin-top: -8px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 0;
+  }
+
 }
 
 #second {
@@ -91,6 +113,14 @@ p {
 
 #first, #third {
   background-color: $dark-75;
+}
+
+#third {
+  h2 {
+    &:after {
+
+    }
+  }
 }
 
 section {
@@ -103,16 +133,17 @@ section {
   position: absolute;
   z-index: 0;
 }
+
 .angle {
   width: 500px;
   float: left;
   padding: 30px 0;
   height: 100%;
   transform: skewX(-$desktop-angle);
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 767px) {
     transform: skewX(-$mobile-angle);
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 767px) {
     width: 100%;
   }
 
@@ -128,18 +159,15 @@ section {
     transform: skewX(20deg);
     font-weight: 600;
     text-align: center;
-    @media screen and (max-width: 480px) {
+
+    @media screen and (max-width: 767px) {
       width: 100%;
-      //left: 0;
+      font-size: 2rem;
       margin-left: 0;
-      transform: skewX(0);
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#91d0ba+0,48b982+100 */
-      background: #91d0ba; /* Old browsers */
-      background: -moz-linear-gradient(top, #91d0ba 0%, #48b982 100%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(top, #91d0ba 0%,#48b982 100%); /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(to bottom, #91d0ba 0%,#48b982 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91d0ba', endColorstr='#48b982',GradientType=0 ); /* IE6-9 */
+      margin-top: -30px;
+      transform: skewX(0deg);
     }
+
     &:after {
       display: block;
       content: '';
@@ -155,49 +183,64 @@ section {
       -o-transform: scaleX(-1) skewX(0deg);
       -webkit-transform: scaleX(-1) skewX(0deg);
       transform: scaleX(-1) skewX(0deg);
-      @media screen and (max-width: 480px) {
+
+      @media screen and (max-width: 767px) {
         right: 0;
-        -moz-transform: scaleX(0) skewX(0deg);
-        -o-transform: scaleX(0) skewX(0deg);
-        -webkit-transform: scaleX(0) skewX(0deg);
-        transform: scaleX(0) skewX(0deg);
+        height: 145px;
+        -moz-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
         background-image: none;
+        background: #91d0ba; /* Old browsers */
+        background: -moz-linear-gradient(left, #91d0ba 0%, #48b982 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #91d0ba 0%, #48b982 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #91d0ba 0%, #48b982 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#91d0ba', endColorstr='#48b982', GradientType=0); /* IE6-9 */
       }
     }
+
   }
 
   .location-wrap {
     @extend .header-wrap;
-    @media screen and (max-width: 480px) {
+
+    @media screen and (max-width: 767px) {
       width: 100%;
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#91d0ba+0,48b982+100 */
-      background: #91d0ba; /* Old browsers */
-      background: -moz-linear-gradient(top, #91d0ba 0%, #48b982 100%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(top, #91d0ba 0%,#48b982 100%); /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(to bottom, #91d0ba 0%,#48b982 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91d0ba', endColorstr='#48b982',GradientType=0 ); /* IE6-9 */
+      font-size: 2rem;
+      margin-left: 0;
+      margin-top: -30px;
+      transform: skewX(0deg);
     }
     &:after {
       display: block;
       content: '';
-      background: url(images/boundless-ribbon.svg) top right;
+      background-position: top right;
+      background-image: url(images/boundless-ribbon.svg);
       background-size: cover;
       height: 200px;
-      width: 150%;
+      width: 200%;
+      margin-left: -60%;
       top: 0;
       left: 0;
       -moz-transform: scaleX(1) skewX(0deg);
       -o-transform: scaleX(1) skewX(0deg);
       -webkit-transform: scaleX(1) skewX(0deg);
       transform: scaleX(1) skewX(0deg);
-      @media screen and (max-width: 480px) {
-        width: 100%;
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#91d0ba+0,48b982+100 */
+
+      @media screen and (max-width: 767px) {
+        right: 0;
+        height: 145px;
+        -moz-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
+        background-image: none;
         background: #91d0ba; /* Old browsers */
-        background: -moz-linear-gradient(top, #91d0ba 0%, #48b982 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top, #91d0ba 0%,#48b982 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom, #91d0ba 0%,#48b982 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91d0ba', endColorstr='#48b982',GradientType=0 ); /* IE6-9 */
+        background: -moz-linear-gradient(left, #91d0ba 0%, #48b982 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #91d0ba 0%, #48b982 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #91d0ba 0%, #48b982 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#91d0ba', endColorstr='#48b982', GradientType=0); /* IE6-9 */
       }
     }
   }
@@ -209,13 +252,13 @@ section {
     @media screen and (max-width: 980px) {
       width: 90%;
     }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
       width: 90%;
       padding: 0 5%;
       margin: 0 auto;
     }
     .content {
-      padding: 5% 10% 0 20%;
+      padding: 5% 15% 0 15%;
       transform: skewX(20deg);
       color: $white;
       @media screen and (max-width: 768px) {
@@ -223,24 +266,24 @@ section {
         padding: 10% 35% 0 15%;
         margin: 0;
       }
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 767px) {
         transform: skewX(0deg);
         padding: 10% 0 10% 0;
         margin: 0;
       }
     }
     p {
-      font-size: 1.25rem;
+      font-size: 1rem;
       line-height: 1.5rem;
     }
     p:first-child {
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 767px) {
         margin-left: 0;
       }
     }
     p:nth-child(2) {
       margin-left: -55px;
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 767px) {
         margin-left: 0;
       }
     }
@@ -271,7 +314,7 @@ section {
       margin-left: -$m-margin;
       margin-right: $m-margin;
     }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
       $s-margin: 2% + ($j * 1.5);
       margin-left: 0;
       margin-right: 0;
@@ -289,6 +332,7 @@ section {
   top: 38%;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
+
   .tri {
     width: 0px;
     height: 0px;
@@ -321,17 +365,22 @@ section {
 }
 
 .svg-toggle {
-  height: 100px;
-  z-index: 30;
+  height: 111px;
+  width: 46px;
+  z-index: 26;
   position: fixed;
   top: 0;
   right: 0;
 
   .base {
-    fill: #4B6766;
+    fill: $darkGreen;
   }
   .tri {
-    fill: #3AA8A7;
+    fill: $green;
+  }
+  .cls-3 {
+    opacity: 0.2;
+    mix-blend-mode: multiply;
   }
   .plus {
     fill: $white;
@@ -344,8 +393,8 @@ section {
     width: 100%;
     margin: 75px 0;
     padding: 0;
-    @media screen and (max-width: 480px) {
-      margin-left: 0;
+    @media screen and (max-width: 767px) {
+      margin: 75px 0 15px 0;
     }
   }
   .portfolio-btn {
@@ -366,22 +415,25 @@ section {
       margin: ($j * 10px) 0;
 
       @if $j == 3 {
-        @media screen and (max-width: 480px) {
-          height: 200px;
+        @media screen and (max-width: 767px) {
+          //height: 200px;
+          display: none;
         }
       } @else if $j == 2 {
         background-color: #957c49 !important;
-        @media screen and (max-width: 480px) {
-          height: 75px;
+        @media screen and (max-width: 767px) {
+          //height: 75px;
+          display: none;
         }
       } @else if $j == 1 {
         background-color: #caa457 !important;
-        @media screen and (max-width: 480px) {
-          height: 50px;
+        @media screen and (max-width: 767px) {
+          //height: 50px;
+          display: none;
         }
       }
 
-      //@media screen and (max-width: 480px) {
+      //@media screen and (max-width: 767px) {
       //  @if $j == 3  {
       //    height: 200px;
       //  }
@@ -396,7 +448,7 @@ section {
   }
   .stripe {
     background-color: #2b2b2b;
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
       width: 100%;
       &-first {
         margin-top: 0;
@@ -419,11 +471,12 @@ section {
     bottom: 0;
     float: left;
     height: inherit;
-    @media screen and (max-width: 480px) {
+    transition: all 1s ease;
+    @media screen and (max-width: 767px) {
       width: 100%;
       position: relative;
     }
-      a {
+    a {
       width: 100%;
       height: 150px;
       position: relative;
@@ -438,7 +491,14 @@ section {
       font-family: $heading-stack;
       font-size: 3em;
       font-weight: 600;
+      transition: all 1s ease;
       ////transform: skewX( -$desktop-angle );
+
+      @media screen and (max-width: 767px) {
+        height: 110px;
+        margin-bottom: 25px;
+        padding: 30px 0;
+      }
       &:after {
         content: " ";
         position: absolute;
@@ -454,10 +514,21 @@ section {
         -ms-transform: skew(-$desktop-angle, 0deg);
         -webkit-transform: skew(-$desktop-angle, 0deg);
         transform: skew(-$desktop-angle, 0deg);
-        @media screen and (max-width: 480px) {
+        transition: all 1s ease;
+        @media screen and (max-width: 767px) {
           -ms-transform: skew($mobile-angle, 0deg);
           -webkit-transform: skew($mobile-angle, 0deg);
           transform: skew($mobile-angle, 0deg);
+        }
+      }
+
+      &:hover {
+        transition: all 1s ease;
+        background: $darkGray;
+        &:after {
+          transition: all 1s ease;
+          background: $darkGray;
+
         }
       }
     }
@@ -470,7 +541,8 @@ section {
     bottom: 0;
     float: right;
     height: inherit;
-    @media screen and (max-width: 480px) {
+    transition: all 1s ease;
+    @media screen and (max-width: 767px) {
       width: 100%;
       position: relative;
     }
@@ -489,6 +561,7 @@ section {
       font-family: $heading-stack;
       font-size: 3em;
       font-weight: 600;
+      transition: all 1s ease;
       &:after {
         content: " ";
         position: absolute;
@@ -504,28 +577,48 @@ section {
         -ms-transform: skew(-$desktop-angle, 0deg);
         -webkit-transform: skew(-$desktop-angle, 0deg);
         transform: skew(-$desktop-angle, 0deg);
+        transition: all 1s ease;
+      }
+
+      &:hover {
+        transition: all 1s ease;
+        background: $darkGray;
+        &:after {
+          transition: all 1s ease;
+          background: $darkGray;
+
+        }
+      }
+
+      @media screen and (max-width: 767px) {
+        height: 110px;
+        margin-bottom: 25px;
+        padding: 30px 0;
       }
     }
   }
 }
-.site-footer {
-  clear: both;
-  width: 100%;
-  background: #00A8EF;
-  padding: 4rem;
-  position: relative;
-  z-index: 25;
-  margin-bottom: -1rem;
+
+.sec-press {
+  background: $purple;
+
+  h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 50px 10px;
+    color: $black;
+    font-weight: 600;
+  }
 }
 
 .off-mobile {
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 767px) {
     display: none;
   }
 }
 
 .on-mobile {
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 767px) {
     display: block;
   }
 }
@@ -536,58 +629,186 @@ section {
 }
 
 // ----- PRESS
+.wpsms-container {
+  min-height: 200px;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 50px;
+}
 
 .press {
   height: auto;
   clear: both;
   border: none;
-  @include grid-container();
 
-  h1 {
-    background-color: #6772B7;
-    font-size: 2em;
-    width: 35%;
-    text-align: right;
-    padding: 20px 40px;
-    margin-bottom: 20px;
-    box-shadow: 20px 20px 0 #353c69;
-  }
+  h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    position: relative;
+    padding: 35px;
+    color: #ffffff;
+    margin-bottom: -7px;
+    z-index: 1;
+    font-weight: 600;
 
-  .speakers {
-    float: left;
-    width: 100%;
-    margin: 25px auto;
-    padding: 30px;
-    background: rgba(255, 255, 255, .8);
-
-    .profile {
-      @include grid-column(3);
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      font-size: 2rem;
+      margin-left: 0;
+      transform: skewX(0deg);
       text-align: center;
+    }
 
-      img {
+    &:after {
+      display: block;
+      content: '';
+      background: url(images/boundless-ribbon.svg) top right;
+      background-size: cover;
+      height: 175px;
+      width: 70%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      position: absolute;
+      -moz-transform: scaleX(-1) skewX(0deg);
+      -o-transform: scaleX(-1) skewX(0deg);
+      /* -webkit-transform: scaleX(-1) skewX(0deg); */
+      /* transform: scaleX(-1) skewX(0deg); */
+
+      @media screen and (max-width: 767px) {
+        right: 0;
         width: 100%;
-        max-width: 300px;
-        margin: 0 auto;
+        height: 115px;
+        -moz-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
+        background-image: none;
+        background: #91d0ba; /* Old browsers */
+        background: -moz-linear-gradient(left, #91d0ba 0%, #48b982 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #91d0ba 0%, #48b982 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #91d0ba 0%, #48b982 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#91d0ba', endColorstr='#48b982', GradientType=0); /* IE6-9 */
       }
     }
-    .text {
-      @include grid-column(8);
+
+  }
+}
+
+.alumni {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 25px;
+
+  //.content {
+  //  padding: 50px 20px;
+  //}
+
+  #panelists {
+    //padding-left: 100px;
+    @include grid-column(4);
+    margin-left: 80px;
+    float: none;
+    //text-align: center;
+    
+    @media screen and (max-width: 767px) {
+      @include grid-column(12);
+      float: none;
+      margin-top: 6px;
+      margin-left: 40px;
     }
   }
 }
 
-///*p.speaker-p {*/
-///*margin-right: 150px;*/
-///*}*/
+.speakers {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+
+  background: rgba(255, 255, 255, 0.8);
+
+  @media screen and (max-width: 767px) {
+    padding: 50px 20px;
+  }
+
+  h5 {
+    line-height: .5;
+  }
+  .profile {
+    @include grid-column(4);
+    text-align: center;
+
+    img {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    @media screen and (max-width: 767px) {
+      @include grid-column(12);
+    }
+  }
+
+  .text {
+    @include grid-column(8);
+    margin-left: 20px;
+    @media screen and (max-width: 767px) {
+      @include grid-column(12);
+      margin-top: 20px;
+    }
+  }
+
+}
+
 #press-twitter {
-  background-color: #90d1bb;
-  text-align: center;
+  background-color: rgba(144, 209, 187, 0.7);
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 65px;
+  padding-left: 100px;
+  padding-right: 100px;
+  h5 {
+    text-align: center;
+    margin: 50px 0;
+  }
+}
+
+.rotating-tweets {
+  border: none;
 }
 
 #press-instagram {
   text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  /*margin-bottom: 30px;*/
+  padding-bottom: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
+  h5 {
+    padding: 50px 0;
+  }
+
+  #sb_instagram {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+}
+
+.sbi_follow_btn {
+  @include grid-column(2);
+  @include grid-push(5);
+  background: #3aa8a7;
+  text-align: center;
+
+  a {
+    padding: 15px;
+    display: block;
+  }
+  @media screen and (max-width: 767px) {
+    @include grid-column(12);
+    @include grid-push(0);
+    width: 100%;
+    margin: 0;
+  }
 }
 
 /*div.timeline-Widget {*/
@@ -596,7 +817,6 @@ section {
 /*.btn {*/
 /*background-color: #90d1bb !important;*/
 /*}*/
-
 @media (max-width: 649px) {
   .speaker-text {
     float: left;

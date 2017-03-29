@@ -28,7 +28,6 @@ get_header(); ?>
                     <div class="angle-inner">
                         <article class="content">
                             <div data-lining>
-                                <p>Howdy!</p>
                                 <p>Typography (from the Greek words τύπος typos "form" and γράφειν graphein "to write")
                                     is the art and technique of arranging type to make written language most appealing
                                     to learning and recognition. The arrangement of type involves selecting typefaces,
@@ -104,15 +103,9 @@ get_header(); ?>
                     </blockquote>
                 </div><!-- .angle -->
             </section>
-            <section>
-                <div class="angle-behind">
-                </div>
-                <div class="">
-                    <div class="angle-inner">
-                        <section class="press">
-                            press
+
+                        <section class="sec-press">
+                            <h2>press</h2>
                         </section>
-                    </div><!-- .angle-inner -->
-                </div><!-- .angle -->
-            </section>
+
 <?php get_footer();

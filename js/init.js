@@ -1,13 +1,21 @@
-jQuery(window).load(function(){
-    if( jQuery(window).width() >= 480 ) {
-        jQuery(updateBoxDimension);
-    }
-    jQuery(window).on('resize', function() {
-        if( jQuery(window).width() >= 480 ) {
-            updateBoxDimension();
-        }
-    });
-    initMap();
+jQuery(document).ready(function () {
+    
+        jQuery("#modal-1").on("change", function() {
+            if (jQuery(this).is(":checked")) {
+                jQuery("body").addClass("modal-open");
+            } else {
+                jQuery("body").removeClass("modal-open");
+            }
+        });
+
+        jQuery(".modal-fade-screen, .modal-close").on("click", function() {
+            jQuery(".modal-state:checked").prop("checked", false).change();
+        });
+
+        jQuery(".modal-inner").on("click", function(e) {
+            e.stopPropagation();
+        });
+
     var navigation = document.getElementById("myNav");
     jQuery("#toggle").on('click', function(){
         if(!jQuery(navigation).hasClass("open")) {
@@ -16,18 +24,6 @@ jQuery(window).load(function(){
             jQuery(".overlay-content, .overlay-content ul").show();
             jQuery(".overlay-content .menu-item").each( function(e) {
                 jQuery(this).delay(300 * (e + 1)).slideToggle("slide");
-                // if(navigation.hasClass('open')) {
-                //     // Prevent the window from scrolling while the modal is open
-                //     var scrollPosition = [
-                //         self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
-                //         self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
-                //     ];
-                //     var html = jQuery('html');
-                //     html.data('scroll-position', scrollPosition);
-                //     html.data('previous-overflow', html.css('overflow'));
-                //     html.css('overflow', 'hidden');
-                //     window.scrollTo(scrollPosition[0], scrollPosition[1]);
-                // }
             });
         } else {
             jQuery('#svg-rotate').css({'transform': 'rotate(-180deg)', 'transform-origin': '50% 50%'});
@@ -40,6 +36,20 @@ jQuery(window).load(function(){
             jQuery(navigation).css({width:'0%'}).removeClass('open');
         }
     });
+  
+});
+
+jQuery(window).load(function(){
+    if( jQuery(window).width() >= 480 ) {
+        jQuery(updateBoxDimension);
+    }
+    jQuery(window).on('resize', function() {
+        if( jQuery(window).width() >= 480 ) {
+            updateBoxDimension();
+        }
+    });
+    initMap();
+
     function updateBoxDimension() {
         var offsetLeft1 = jQuery( "#first" ).offset();
         jQuery("#second").css({
