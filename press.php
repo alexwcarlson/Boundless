@@ -38,6 +38,7 @@ get_header(); ?>
             </div>
 
             <div class="speakers">
+<<<<<<< HEAD
 
                 <div class="profile">
                     <img class="alignnone size-medium wp-image-18"
@@ -57,15 +58,18 @@ get_header(); ?>
                         round out her skillset. This combination of disciplines led her to adopt a strategy-based approach
                         to design, focused on solving tangible problems and achieving real goals based on how people think.
 
+
                         She loves the open source community, and when she is not working on projects she
                         speaks/volunteers/organizes at events and workshops around the country. Her passions are
                         communication and empowerment, and she believes in the power of "Why?"
                     </p>
                 </div>
+
             </div>
         </div>
     </section>
     <section class="press">
+
         <h2>Alumni</h2>
 
         <div class="alumni">
@@ -101,6 +105,7 @@ get_header(); ?>
                 <?php echo do_shortcode(' [instagram-feed] '); ?>
                 <div class="sbi_follow_btn">
                     <a href="http://instagram.com/mctcdesign2017" target="_blank">
+
                         <i class="fa fa-instagram"></i>
                         Follow on Instagram
                     </a>

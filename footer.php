@@ -50,6 +50,7 @@
 								<input type="text" placeholder="phone">
 								<label for=""></label>
 
+
 								<textarea name="" id="" placeholder="message"></textarea>
 							</form>
 
@@ -76,6 +77,7 @@
 					<i class="fa fa-snapchat-ghost fa-2x" aria-hidden="true"></i>
 				</a></li>
 		</ul>
+
 
 
 	</div>

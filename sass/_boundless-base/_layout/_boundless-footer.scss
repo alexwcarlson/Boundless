@@ -5,6 +5,7 @@ footer {
   background: $gray;
   padding: 2rem;
   position: relative;
+
   z-index: 24;
   font-family: $body-stack;
   line-height: 2rem;
@@ -19,6 +20,7 @@ footer {
       margin: 0;
       text-align: left;
     }
+
   }
   .right {
     @include grid-column(6);
@@ -42,6 +44,11 @@ footer {
     max-width: 300px;
   }
 
+  .logo img {
+    width: 100%;
+    max-width: 300px;
+  }
+
   form {
     input {
       @include grid-column(4);
@@ -57,12 +64,14 @@ footer {
       font-size: 1.2rem;
       color: $black;
       outline-color: #5abb9a;
+
       @media screen and (max-width: 767px) {
         @include grid-column(12);
         text-align: left;
         margin-left: 0;
         width: 100%;
       }
+
     }
     input::-webkit-input-placeholder {
       color: $white !important;
@@ -83,6 +92,7 @@ footer {
       @extend input;
       @include grid-column(12);
       margin-left: 10px;
+
       @media screen and (max-width: 767px) {
         margin-left: 0;
         width: 100%;

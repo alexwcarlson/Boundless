@@ -602,6 +602,7 @@ section {
 .sec-press {
   background: $purple;
 
+
   h2 {
     font-size: 3rem;
     text-transform: uppercase;
@@ -609,7 +610,9 @@ section {
     color: $black;
     font-weight: 600;
   }
+
 }
+
 
 .off-mobile {
   @media screen and (min-width: 767px) {
