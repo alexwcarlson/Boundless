@@ -21,7 +21,15 @@ Description: Custom Wordpress Theme for the Boundless Design Show for graduating
 // user and page specific scss files go here. use semantic naming convention (ie. _boundless-home-page.scss)
 // set up your project to compile to ../style.css to maintain WordPress stylesheet filepath
 
+@import "_profile-pages/template-students";
+@import "_profile-pages/single-student-profile";
+@import "_profile-pages/single-student-profile-mobile";
+@import "_profile-pages/student-project";
+@import "_profile-pages/student-project-mobile";
+@import "_profile-pages/arrow-down";
+
 // DEMO PAGE  > demo.html //
+
 
 //imports demo.html settings
 @import "_demo/demo";

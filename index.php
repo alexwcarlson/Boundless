@@ -14,36 +14,33 @@
  */
 
 get_header(); ?>
-    <div id="primary" class="content-area">
-        <main id="main" class="site-main" role="main">
-            <section>
-                <div class="angle-behind">
+<div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+        <section>
+            <div class="angle-behind">
 
-                </div>
-                <div id="first" class="angle welcome">
-                    <h2 class="header-wrap">
-                        <span>we are boundless
+            </div>
+            <div id="first" class="angle welcome">
+                <h2 class="header-wrap">
+                    <span>we are boundless
                     </span>
-                    </h2>
-                    <div class="angle-inner">
-                        <article class="content">
-                            <div data-lining>
-                                <p>Typography (from the Greek words τύπος typos "form" and γράφειν graphein "to write")
-                                    is the art and technique of arranging type to make written language most appealing
-                                    to learning and recognition. The arrangement of type involves selecting typefaces,
-                                    point size, line length</p>
-                                <p>line-spacing (leading), letter-spacing (tracking), and adjusting the space within
-                                    letters pairs (kerning[2]). Type design is a closely related craft, sometimes
-                                    considered part of typography; most typographers do not design typefaces, and some
-                                    type designers do not consider themselves typographers. In modern times, typography
-                                    has been put in film, television and online broadcasts to add emotion to
-                                    communication.</p>
-                            </div>
-                        </article><!-- .content -->
-                    </div><!-- .angle-inner -->
-                    <blockquote>
-                        <h3 class="bottom-header">May 3 - 4<br>
-                            <small>Minneapolis Community <br>& Technical College</small>
+                </h2>
+                <div class="angle-inner">
+                    <article class="content">
+                        <div data-lining>
+                            <p>Mission Statement: “We are multidimensional designers and developers creating work that embodies the breadth of our passion. Delight in the array of possibilities we have to showcase.”
+                            </p>
+
+                            <p>The Show: Come delight in the work of 47 web and graphic designers at the 2017 web and graphic design portfolio show, Boundless! This event allows each guest the opportunity to view a wide variety of projects forged from creative passion — and many late nights — and meet the artists behind the work.</p>
+
+                        </div>
+                    </article><!-- .content -->
+                </div><!-- .angle-inner -->
+                <blockquote>
+                    <h3 class="bottom-header">May 3 - 4<br>
+                        <p>Minneapolis Community <br>&amp; Technical College</p>
+                        <small>Where: 1501 Hennepin Ave, Minneapolis, room L300 <br>
+                            (Follow the signs at all main entrances of T Building and/or Whitney Hall (include map). There are also directional signs at the parking entrances of every level of ramp and follow the signs the whole way.)</small>
                         </h3>
                     </blockquote>
                 </div><!-- .angle -->
@@ -83,29 +80,32 @@ get_header(); ?>
                     <div class="angle-inner">
                         <article class="content">
                             <div data-lining>
-                                <p>Typography (from the Greek words τύπος typos "form" and γράφειν graphein "to write")
-                                    is the art and technique of arranging type to make written language most appealing
-                                    to learning and recognition. The arrangement of type involves selecting typefaces,
-                                    point size, line length</p>
-                                <p>line-spacing (leading), letter-spacing (tracking), and adjusting the space within
-                                    letters pairs (kerning[2]). Type design is a closely related craft, sometimes
-                                    considered part of typography; most typographers do not design typefaces, and some
-                                    type designers do not consider themselves typographers. In modern times, typography
-                                    has been put in film, television and online broadcasts to add emotion to
-                                    communication.</p>
-                            </div>
-                        </article><!-- .content -->
-                    </div><!-- .angle-inner -->
-                    <blockquote>
-                        <h3 class="bottom-header">May 3 - May 4<br>
-                            <small>Minneapolis Community <br> & Technical College</small>
-                        </h3>
-                    </blockquote>
-                </div><!-- .angle -->
-            </section>
+                                <p>Alumni Panel:
+May 2
+1pm: Alumni panel
+Laurel Johnson: Laurel is a front-end developer at Fjorge
+Claire Campbell: ??
+Aaron Hurst: Co-owner of Conjure Shop, a design &amp; marketing company (free-lance) Jerrald (Jay) Spencer: Freelance, graphic designer U of M
+Damien Kirchoff: Digital designer at Snap Agency
+Rudy Fig (aka Sierra Riggs): Freelance illustrator/designer Rudy Fig Fine Art and Design</p>
+                                    
+                                    </div>
+                                </article><!-- .content -->
+                            </div><!-- .angle-inner -->
+                            <blockquote>
+                                <h3 class="bottom-header">May 3 - May 4<br>
+                                    <small>Schedule:
+                                        May 2nd show runs from 10AM-8PM
+                                        Keynote Speaker: Tim Brunelle (BBDO Minneapolis) 5:00 PM Opening Reception: starting at 5:30 PM
+                                        May 3rd show runs from 10AM-7PM
+                                        Keynote Speaker: Michelle Schulp (Marktime Media) May 3rd at 5:00 PM</small>
+                                    </h3>
+                                </blockquote>
+                            </div><!-- .angle -->
+                        </section>
 
                         <section class="sec-press">
                             <h2>press</h2>
                         </section>
 
-<?php get_footer();
+                        <?php get_footer();
