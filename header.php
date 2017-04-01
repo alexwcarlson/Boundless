@@ -22,25 +22,15 @@
     <?php //esc_html_e('Skip to content', 'boundless'); ?><!--</a>-->
     <header id="masthead" class="site-header" role="banner">
         <nav id="site-navigation" class="main-navigation" role="navigation">
-
-
-            <?php if (is_page_template('index.php')){ ?>
+            <?php if (is_home()) { ?>
                 <!--                show no navigation-->
-            <?php }else{ ?>
+            <?php } else { ?>
                 <div class="header-logo">
-                    <a href="">
+                    <a href="/">
                         <img src="<?php echo get_template_directory_uri() ?>/images/Insignia.png" alt="">
                     </a>
                 </div>
             <?php } ?>
-
-
-
-
-
-
-
-
 
             <span style="font-size:30px;cursor:pointer" id="toggle">
                 <svg class="svg-toggle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -63,7 +53,7 @@
         </nav><!-- #site-navigation -->
 
 
-        <?php if (is_page_template('index.php')){ ?>
+        <?php if (is_home()) { ?>
         <div class="site-branding">
             <img src="<?php echo get_template_directory_uri() ?>/images/logos/logo-main.png" alt="">
         </div><!-- .site-branding -->
@@ -71,8 +61,8 @@
 
     <div id="content" class="site-content">
 
-        <?php }else{ ?>
+        <?php }else { ?>
         </header><!-- #masthead -->
-
+<!--else-->
         <div id="content" class="site-content">
-<?php } ?>
+    <?php }; ?>
