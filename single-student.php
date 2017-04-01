@@ -104,12 +104,15 @@ get_header(); ?>
             <div class="profile-description">
                 <?php the_field('bio_text'); ?>
 
-            </div>   <!-- end description div -->
+            </div>   <!-- end desciption div -->
 
         </div>   <!-- end .image div -->
 
 
     </div>   <!-- end profile page mobile  -->
+
+
+<?php //include 'projects.php'; ?>
     <?php get_template_part( 'template-parts/content', 'projects' ); ?>
 
 <?php //include 'footer.php'; ?>
