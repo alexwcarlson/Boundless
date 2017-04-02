@@ -10,22 +10,7 @@
 get_header(); ?>
 
     <div id="template-students-wrapper">
-        <style>
-        /*.image-container:nth-child(4n+1){*/
-        /*clear: left;*/
-        /*}*/
-            .image-container {
-                height:406px;
-                overflow: hidden;
-            }
-            .image-container h6{
-                padding-top:5px;
-                line-height:1.2;
-            }
-            h2.filter-button{
-                font-size:3.3rem;
-            }
-        </style>
+
         <section class="profiles-filter">  <!-- begin profies-filter navigation section -->
 
             <ul>

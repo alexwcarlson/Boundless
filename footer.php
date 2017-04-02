@@ -64,16 +64,16 @@
 		</ul>
 
 		<ul class="social">
-			<li><a href="">
+			<li><a href="https://www.facebook.com/boundlessdesignshow/" target="_blank">
 					<i class="fa fa-facebook fa-2x"></i>
 				</a></li>
-			<li><a href="">
+			<li><a href="https://twitter.com/boundlessMCTC" target="_blank">
 					<i class="fa fa-twitter fa-2x"></i>
 				</a></li>
-			<li><a href="">
+			<li><a href="https://www.instagram.com/boundlessdesignshow/" target="_blank">
 					<i class="fa fa-instagram fa-2x"></i>
 				</a></li>
-			<li><a href="">
+			<li><a href="https://www.snapchat.com/add/mctcportfolio17" target="_blank">
 					<i class="fa fa-snapchat-ghost fa-2x" aria-hidden="true"></i>
 				</a></li>
 		</ul>
@@ -84,11 +84,6 @@
 	<div class="right">
 		<div class="site-info">
 			&copy; 2017 Boundless, MCTC Graduate Design Show<br>
-			<a href="<?php echo esc_url(__('https://wordpress.org/', 'boundless')); ?>">
-				<?php printf(esc_html__('Proudly powered by %s', 'boundless'), 'WordPress'); ?>
-			</a>
-			<span class="sep"> | </span>
-			<?php printf(esc_html__('%1$s by %2$s.', 'boundless'), 'boundless', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>'); ?>
 		</div><!-- .site-info -->
 </footer><!-- #colophon -->
 </div><!-- #page -->

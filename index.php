@@ -14,6 +14,22 @@
  */
 
 get_header(); ?>
+    <style>
+        .home .site-branding{
+            position: relative;
+        }
+        .home .site-branding:after{
+            content: '';
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            background-color: rgb(88, 89, 91);
+            z-index:-1000;
+
+        }
+    </style>
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
             <section>

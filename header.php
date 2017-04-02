@@ -22,7 +22,7 @@
     <?php //esc_html_e('Skip to content', 'boundless'); ?><!--</a>-->
     <header id="masthead" class="site-header" role="banner">
         <nav id="site-navigation" class="main-navigation" role="navigation">
-            <?php if (is_home()) { ?>
+            <?php if (is_front_page()) { ?>
                 <!--                show no navigation-->
             <?php } else { ?>
                 <div class="header-logo">
@@ -47,15 +47,17 @@
                 <div class="overlay-content">
                     <div class="name"><h2>Boundless</h2>
                     </div>
-                    <?php wp_nav_menu(array('theme_location' => 'menu-1', 'menu_id' => 'primary-menu')); ?>
+                    <?php echo wp_nav_menu(array('theme_location' => 'primary-menu', 'menu_id' => 'menu-1')); ?>
+                    <?php //var_dump(wp_nav_menu(array('theme_location' => 'menu-1', 'menu_id' => 'primary-menu'))); ?>
                 </div>
             </div>
         </nav><!-- #site-navigation -->
 
 
-        <?php if (is_home()) { ?>
+        <?php if (is_front_page()) { ?>
         <div class="site-branding">
-            <img src="<?php echo get_template_directory_uri() ?>/images/logos/logo-main.png" alt="">
+<!--            <img src="--><?php //echo get_template_directory_uri() ?><!--/images/logos/boundless-splash.svg" alt="">-->
+<?php  get_template_part('template-parts/boundless', 'splash'); ?>
         </div><!-- .site-branding -->
     </header><!-- #masthead -->
 

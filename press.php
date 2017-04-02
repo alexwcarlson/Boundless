@@ -38,7 +38,6 @@ get_header(); ?>
             </div>
 
             <div class="speakers">
-<<<<<<< HEAD
 
                 <div class="profile">
                     <img class="alignnone size-medium wp-image-18"

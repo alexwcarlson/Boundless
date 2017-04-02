@@ -49,16 +49,22 @@ p {
 
 .site-branding {
   height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
   @media screen and (max-width: 767px) {
     height: 40vh;
   }
   &:before {
     content: '';
     //background: url("images/pattern.png");
-    background: url("images/BoundlessPattern-no-crop2.png") center top repeat;
-    background-size: 130%;
+    background: url("images/cubes-splash.svg") center center no-repeat;
+    background-size: cover;
     position: absolute;
-    top: -45px;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -66,16 +72,23 @@ p {
     opacity: 1;
     z-index: -1;
   }
-
   img {
     width: 60%;
-    margin: 0 auto;
-    padding-top: 20%;
     display: block;
 
     @media screen and (max-width: 767px) {
       width: 90%;
-      padding-top: 30%;
+
+    }
+
+  }
+  svg {
+    width: 60%;
+    display: block;
+
+    @media screen and (max-width: 767px) {
+      width: 90%;
+
     }
 
   }
@@ -373,10 +386,10 @@ section {
   right: 0;
 
   .base {
-    fill: $darkGreen;
+    fill: $red;
   }
   .tri {
-    fill: $green;
+    fill: $yellow;
   }
   .cls-3 {
     opacity: 0.2;

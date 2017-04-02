@@ -22,9 +22,7 @@ jQuery(document).ready(function () {
             jQuery('#svg-rotate').css({'transform': 'rotate(225deg)', 'transform-origin': '50% 50%'});
             jQuery(navigation).css({width: '100%'}).addClass('open');
             jQuery(".overlay-content, .overlay-content ul").show();
-            jQuery(".overlay-content .menu-item").each(function (e) {
-                jQuery(this).delay(300 * (e + 1)).slideToggle("slide");
-            });
+            jQuery(".overlay-content .page_item").fadeIn();
         } else {
             jQuery('#svg-rotate').css({'transform': 'rotate(-180deg)', 'transform-origin': '50% 50%'});
             jQuery(navigation).css({width: '0%'}).removeClass('open');
@@ -39,7 +37,6 @@ jQuery(document).ready(function () {
     jQuery(".filter-button").click(function () {
         var clickID = jQuery(this).attr('id');
         var major = jQuery('#' + clickID).attr('data-filter');
-        console.log(major);
         jQuery('.image-container').fadeOut('slow', function () {
             jQuery('.image-container' + major).fadeIn('slow')
         });
