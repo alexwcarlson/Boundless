@@ -20,18 +20,6 @@ jQuery(document).ready(function () {
         }
     });
 
-jQuery(".header-logo a").click(function(event){
-    event.preventDefault(); // prevents link to be redirected
-    var time = 300; // time for slideup effect
-    var url = jQuery(this).attr("href"); // pick url for redirecting via javascript
-
-    jQuery('#boundlessIcon').addClass('spin');
-    window.setTimeout(function () {
-        document.location.href = url;
-    }, time); // timeout and waiting until effect is complete
-    return -1;
-    jQuery();
-});
     jQuery(".modal-fade-screen, .modal-close").on("click", function () {
         jQuery(".modal-state:checked").prop("checked", false).change();
     });

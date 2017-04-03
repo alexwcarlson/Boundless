@@ -52,7 +52,7 @@ a:hover, a:focus {
 
 
   @media screen and (max-width: 767px) {
-    height: 40vh;
+    height: 70vh;
   }
   &:before {
     content: '';
@@ -84,7 +84,7 @@ a:hover, a:focus {
     display: block;
 
     @media screen and (max-width: 767px) {
-      width: 75%;
+      width: 90%;
 
     }
 
@@ -228,7 +228,7 @@ section {
 .svg-toggle {
   height: 111px;
   width: 46px;
-  z-index: 26;
+  z-index: 10000;
   position: fixed;
   top: 0;
   right: 0;
@@ -252,13 +252,13 @@ section {
 .portfolio {
 
   .portfolio-btn {
-    width: 100%;
-    padding: 75px 0;
-    display: block;
+    width: auto;
+    padding: 20px 40px;
+    display: inline-block;
     text-align: center;
     text-transform: uppercase;
     font-family: $heading-stack;
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: 600;
     color: $white;
     background-color: $yellow;

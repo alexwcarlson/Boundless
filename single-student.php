@@ -38,9 +38,6 @@ get_header(); ?>
                     foreach ($taxonomy_ar as $taxonomy_term) {
                         $i++;
 
-                        echo $i;
-//                        conflict on line 41
-
                         if($i >= 2) {
                             $output .= '+ ' . $taxonomy_term->name . ' ';
                         }
@@ -67,7 +64,7 @@ get_header(); ?>
 
         <div class="arrow animated bounce">
 
-            <a data-scroll href="#projects"><img alt="arrow down" src="images/B-Assets-Final/arrow.svg"/>PROJECTS</a>
+            <a data-scroll href="#projects"><img alt="arrow down" src="/wp-content/themes/boundless/images/B-Assets-Final/arrow.svg"/>PROJECTS</a>
 
         </div>
 
