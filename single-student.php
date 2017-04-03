@@ -11,11 +11,7 @@ get_header(); ?>
     <!--<?php //include 'header.php'; ?>-->
 
     <div class="profile-page-main">
-        <style>
-            .project h2#project-title{
-                font-size:3.3rem;
-            }
-        </style>
+
 
         <section class="profile-intro ">
 
@@ -41,6 +37,7 @@ get_header(); ?>
                     $i = 0;
                     foreach ($taxonomy_ar as $taxonomy_term) {
                         $i++;
+                        echo $i;
                         if($i >= 2) {
                             $output .= '+ ' . $taxonomy_term->name . ' ';
                         }
@@ -53,7 +50,7 @@ get_header(); ?>
                 } ?>
 
                 <?php if(get_field('website')) : ?>
-                    <a href="http://<?php the_field('website'); ?>"><?php the_field('website'); ?></a>
+                    <a href="http://<?php the_field('website'); ?>" target="_blank"><?php the_field('website'); ?></a>
                 <?php endif;?>
 
                 <?php if(get_field('bio_text')) : ?>
@@ -74,7 +71,13 @@ get_header(); ?>
     </div>    <!-- end  profile page main -->
     <!--  start mobile layout -->
     <div class="profile-page-mobile">
-        <div class="image"><img src="images/student-profiles/student-2.jpg" alt="profile image">
+        <div class="image">
+           <?php $image = get_field('student_image');
+            if (!empty($image)): ?>
+            <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>"/>
+            <?php else : ?>
+                <img src="http://sandboxdev.boundless.show/wp-content/uploads/2017/03/brian-1.jpg" alt="img">
+            <?php endif; ?>
             <div class="name">
 
                 <h1><?php the_field('first_name'); ?> <?php the_field('last_name'); ?></h1>
@@ -84,7 +87,7 @@ get_header(); ?>
                     $i = 0;
                 foreach ($taxonomy_ar as $taxonomy_term) {
                     $i++;
-                    if($i >= 1) {
+                    if($i >= 2) {
                         $output .= '+ ' . $taxonomy_term->name . ' ';
                     }
                     else{

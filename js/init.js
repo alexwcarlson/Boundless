@@ -8,6 +8,30 @@ jQuery(document).ready(function () {
         }
     });
 
+    jQuery(window).scroll(function(){
+        var scrolling = jQuery(window).scrollTop();
+
+        var logo = jQuery('#boundlessIcon');
+        if( scrolling > 15 ){
+            logo.addClass('scroll');
+        }
+        else{
+            logo.removeClass('scroll');
+        }
+    });
+
+jQuery(".header-logo a").click(function(event){
+    event.preventDefault(); // prevents link to be redirected
+    var time = 300; // time for slideup effect
+    var url = jQuery(this).attr("href"); // pick url for redirecting via javascript
+
+    jQuery('#boundlessIcon').addClass('spin');
+    window.setTimeout(function () {
+        document.location.href = url;
+    }, time); // timeout and waiting until effect is complete
+    return -1;
+    jQuery();
+});
     jQuery(".modal-fade-screen, .modal-close").on("click", function () {
         jQuery(".modal-state:checked").prop("checked", false).change();
     });

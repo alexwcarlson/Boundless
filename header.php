@@ -27,7 +27,8 @@
             <?php } else { ?>
                 <div class="header-logo">
                     <a href="/">
-                        <img src="<?php echo get_template_directory_uri() ?>/images/Insignia.png" alt="">
+<!--                        <img src="--><?php //echo get_template_directory_uri() ?><!--/images/Insignia.png" alt="">-->
+                        <?php  get_template_part('template-parts/boundless', 'icon'); ?>
                     </a>
                 </div>
             <?php } ?>
@@ -45,9 +46,10 @@
             </span>
             <div class="overlay" id="myNav">
                 <div class="overlay-content">
-                    <div class="name"><h2>Boundless</h2>
+                    <div class="name">
+<!--                        <h2>Boundless</h2>-->
                     </div>
-                    <?php echo wp_nav_menu(array('theme_location' => 'primary-menu', 'menu_id' => 'menu-1')); ?>
+                    <?php echo wp_nav_menu( array('theme_location' => 'Primary', 'menu_id' => 'menu-1')); ?>
                     <?php //var_dump(wp_nav_menu(array('theme_location' => 'menu-1', 'menu_id' => 'primary-menu'))); ?>
                 </div>
             </div>
