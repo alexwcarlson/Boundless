@@ -42,7 +42,7 @@ get_header(); ?>
             <div class="content-container">
 
                 <div class="bottom right">
-                    <h2  class="bottom-header">May 2 - 3</h2>
+                    <h2 class="bottom-header">May 2 - 3</h2>
                     <h3 class="bottom-header">
                         Minneapolis Community<br>
                         &amp; Technical College
@@ -64,11 +64,9 @@ get_header(); ?>
 
             <div class="content-container">
                 <div class="bottom left">
-                    <p>Come delight in the work of 47 web and graphic designers at the 2017 web
-                        and graphic design portfolio show, Boundless! This event allows each guest the
-                        opportunity to view a wide variety of projects forged from creative passion — and
-                        many late nights — and meet the artists behind the work.</p>
-                    <a href="/students" class="portfolio-btn">view student work</a>
+                    <p>The MCTC 2017 design show bring to light the meaning of creativity. This event will allow each guest the opportunity to view a wide variety of projects forged with create passion.</p>
+                    <p>Discover the works of 47 designers and developers dedicated to their craft; their creativity knows no bounds.</p>
+                    <a href="/students" class="portfolio-btn">view portfolios</a>
                 </div>
             </div>
         </section>
@@ -78,28 +76,27 @@ get_header(); ?>
             <div class="content-container dates">
                 <article class="content bottom right">
                     <div class="day">
-                    <h4>Tuesday, May 2</h4>
-                    <h5>10 AM - 8 PM</h5>
-                    <ul>
-                        <li>1 PM - Alumni Panel<br>
-                            <a href="">View list of alumni</a>
-                        </li>
-                        <li>5 PM - Keynote Speaker<br>
-                            Tim Brunelle from BBDO Minneapolis
-                        </li>
-                        <li>5:30 PM - Opening Reception
-                        </li>
-                    </ul>
-</div>
-            <div class="day">
-                    <h4>Wednesday, May 3</h4>
-                    <h5>10 AM - 7 PM</h5>
-                    <ul>
-                        <li>5 PM Keynote Speaker<br>
-                            Michelle Schulp from Marktime Media
-                        </li>
-                    </ul>
-                        </div>
+                        <h4>Tuesday, May 2</h4>
+                        <h5>10 AM - 8 PM</h5>
+                        <ul>
+                            <li>1 PM - Alumni Panel</li>
+                            <li>5 PM - Keynote Speaker<br>
+                                Tim Brunelle from BBDO Minneapolis
+                            </li>
+                            <li>5:30 PM - Opening Reception
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="day">
+                        <h4>Wednesday, May 3</h4>
+                        <h5>10 AM - 7 PM</h5>
+                        <ul>
+                            <li>5 PM Keynote Speaker<br>
+                                Michelle Schulp from Marktime Media
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="/students" class="press-btn">more information</a>
                 </article>
             </div>
         </section>
@@ -114,7 +111,7 @@ get_header(); ?>
                     <p>Where: 1501 Hennepin Ave<br>
                         Minneapolis, MN 55403<br>
                         Room L300 </p>
-                    <p>Follow the signs at all main entrances of T Building and/or Whitney Hall (include map).
+                    <p>Follow the signs at all main entrances of T Building and/or Whitney Hall.<br>
                         There are also directional signs at the parking entrances of every level of ramp and
                         follow the signs the whole way.
 
@@ -125,12 +122,12 @@ get_header(); ?>
 
             </div>
         </section>
-            <section class="sec-press">
-                <h2>press</h2>
+        <section class="sec-press">
+            <h2>instagram</h2>
 
-                <?php echo do_shortcode(' [instagram-feed cols=5 num=5 imageres=med showbutton=false width=75 widthunit=% showfollow=true] '); ?>
+            <?php echo do_shortcode(' [instagram-feed cols=5 num=5 imageres=med showbutton=false width=75 widthunit=% showfollow=true] '); ?>
 
-            </section>
+        </section>
 
-<?php get_footer(); ?>
+        <?php get_footer(); ?>
 

@@ -28,7 +28,7 @@ h2 { font-family: $heading-stack; font-weight: 600; font-size: 3rem; line-height
 h2.header-ltr {
 	text-transform: uppercase;
 	position: relative;
-	padding: .75em;
+	padding: .75em 1.5em;
 	color: $white;
 	z-index: 2;
 	text-align: right;
@@ -132,6 +132,7 @@ p { font-family: $body-stack; font-size: 1rem; font-weight: 300; line-height: 1.
 	font-weight: 700;
 	line-height: 1.8rem;
 	color: $yellow;
+	text-align: right;
 }
 
 
