@@ -4656,16 +4656,38 @@ section {
 
 .press {
   margin-top: 125px; }
+  @media screen and (max-width: 480px;) {
+    .press h2 {
+      text-align: center;  }  }
 
 .alumni {
   background-color: rgba(255, 255, 255, 0.7);
   padding-bottom: 25px; }
+  .alumni #panelists li {
+    display: inline-block;
+    padding: 0 20px;
+    float: left;
+    width: 33%;  }
+  .alumni #panelists li h6 {
+  border-bottom: 5px solid #3aa8a7;
+  margin-bottom: 10px; }
+  @media screen and (max-width: 767px) {
+    .alumni #panelists li {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .alumni #panelists li {
+      width: 100%;
+    }
+  }
 
 .speakers {
   width: 100%;
   margin: 0 auto;
   padding: 50px;
-  background: rgba(255, 255, 255, 0.8); }
+  background: rgba(255, 255, 255, 0.8);
+  float: left; }
   @media screen and (max-width: 767px) {
     .speakers {
       padding: 50px 20px; } }
@@ -4732,7 +4754,7 @@ section {
   }
 
 .sbi_follow_btn {
-  width: calc(16.66667% - 23.33333px);
+  width: auto);
   float: left;
   margin-left: calc(41.66667% - 28.33333px + 40px);
   background: #3aa8a7;
