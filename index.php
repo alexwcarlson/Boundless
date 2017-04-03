@@ -68,7 +68,7 @@ get_header(); ?>
                         and graphic design portfolio show, Boundless! This event allows each guest the
                         opportunity to view a wide variety of projects forged from creative passion — and
                         many late nights — and meet the artists behind the work.</p>
-                    <a href="/students" class="portfolio-btn">view student work</a>
+                    <a href="/students" class="portfolio-btn">view portfolios</a>
                 </div>
             </div>
         </section>
