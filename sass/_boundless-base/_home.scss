@@ -20,7 +20,6 @@ section {
       
       &.header-wrap {
         position: relative;
-        float: right;
         font-size:4.3rem;
         line-height:2;
         color: #FFF;
@@ -31,12 +30,7 @@ section {
         text-transform: uppercase;
       }
         &:after {
-          -moz-transform: scaleX(-1);
-          -o-transform: scaleX(-1);
-          -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-          filter: FlipH;
-          -ms-filter: "FlipH";
+
           display: block;
           content: '';
           background: url(images/boundless-ribbon.svg) top right;
@@ -44,7 +38,7 @@ section {
           height: 170px;
           width: calc(100% + 180px);
           top: -10px;
-          right: 0px;
+
           z-index: -1;
           position: absolute;
           @media screen and (max-width: 767px) {
@@ -59,8 +53,31 @@ section {
           }
         }
         &.left{
-          &.after{
-            
+          float: left;
+          span{
+
+            padding-left:40px;
+
+          }
+          &:after{
+            left: 0px;
+          }
+        }
+        &.right{
+          float: right;
+          span{
+
+            padding-right:40px;
+
+          }
+          &:after{
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+            right: 0px;
           }
         }
       }
@@ -105,12 +122,12 @@ section {
   right: 0;
   Z-INDEX: 1000;
   justify-content:space-between;
-.left {
+.top {
   align-self: flex-start;
   width:50%;
   padding:50px;
 }
-  .right{
+  .bottom{
     align-self: flex-end;
     width:50%;
     padding:50px;
@@ -137,4 +154,12 @@ section {
   height:50px;
   position: relative;
   float: left;
+}
+.btn-new{
+  background-color:$darkGray;
+  display: inline-block;
+  text-align: center;
+  padding:20px 40px;
+  color: $white;
+  text-transform: uppercase;
 }

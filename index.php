@@ -41,8 +41,8 @@ get_header(); ?>
                 </h2>
 
                 <div class="content-container">
-                    <div class="left"></div>
-                    <div class="right">
+                    <div class="top"></div>
+                    <div class="bottom">
                         <p>We are multidimensional designers and developers creating work
                             that embodies the breadth of our passion. Delight in the array of possibilities we
                             have to showcase.
@@ -87,11 +87,24 @@ get_header(); ?>
             </section>
 
             <section class="homesec second">
-                <h2 class="header-wrap left">
-                    <span>
-                        we are boundless
-                    </span>
-                </h2>
+                <!--                <h2 class="header-wrap left">-->
+                <!--                    <span>-->
+                <!--                      Student work-->
+                <!--                    </span>-->
+                <!--                </h2>-->
+                <div class="content-container">
+                    <div class="bottom">
+                        <p>Come delight in the work of 47 web and graphic designers at the 2017 web
+                            and graphic design portfolio show, Boundless! This event allows each guest the
+                            opportunity to view a wide variety of projects forged from a combination of creative passion
+                           and many late nights as well as meet the artists behind the work.
+                        </p>
+                        <a href="/students" class="btn-new">Meet the Students</a>
+                    </div>
+                    <div class="top">
+
+                    </div>
+                </div>
                 <!--                <div class="angle-behind"></div>-->
 
                 <!--                <div id="second" class="angle portfolio">-->
@@ -116,11 +129,28 @@ get_header(); ?>
                 <!--                </div>-->
             </section>
             <section class="homesec third">
+                <h2 class="header-wrap left">
+                    <span>
+                        Schedule
+                    </span>
+                </h2>
+                <div class="content-container">
 
+                    <div class="top">
+
+                    </div>
+                    <div class="bottom">
+                        <p>We are multidimensional designers and developers creating work
+                            that embodies the breadth of our passion. Delight in the array of possibilities we
+                            have to showcase.
+                        </p>
+                    </div>
+                </div>
             </section>
             <section class="homesec fourth">
-                <div class="angle-behind">
-                    <div id="map"></div>
+
+                <div id="map">
+
                 </div>
                 <!--                <div id="third" class="angle location">-->
                 <!--                    <h2 class="location-wrap">we are boundless</h2>-->

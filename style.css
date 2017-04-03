@@ -5442,7 +5442,6 @@ section.homesec {
     z-index: 1; }
   section.homesec h2.header-wrap, section.homesec .angle h2.location-wrap, .angle section.homesec h2.location-wrap {
     position: relative;
-    float: right;
     font-size: 4.3rem;
     line-height: 2;
     color: #FFF;
@@ -5452,12 +5451,6 @@ section.homesec {
       padding-right: 40px;
       text-transform: uppercase; }
     section.homesec h2.header-wrap:after, section.homesec .angle h2.location-wrap:after, .angle section.homesec h2.location-wrap:after {
-      -moz-transform: scaleX(-1);
-      -o-transform: scaleX(-1);
-      -webkit-transform: scaleX(-1);
-      transform: scaleX(-1);
-      filter: FlipH;
-      -ms-filter: "FlipH";
       display: block;
       content: '';
       background: url(images/boundless-ribbon.svg) top right;
@@ -5465,7 +5458,6 @@ section.homesec {
       height: 170px;
       width: calc(100% + 180px);
       top: -10px;
-      right: 0px;
       z-index: -1;
       position: absolute; }
       @media screen and (max-width: 767px) {
@@ -5483,6 +5475,24 @@ section.homesec {
           /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
           filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#91d0ba', endColorstr='#48b982', GradientType=0);
           /* IE6-9 */ } }
+    section.homesec h2.header-wrap.left, section.homesec .angle h2.left.location-wrap, .angle section.homesec h2.left.location-wrap {
+      float: left; }
+      section.homesec h2.header-wrap.left span, section.homesec .angle h2.left.location-wrap span, .angle section.homesec h2.left.location-wrap span {
+        padding-left: 40px; }
+      section.homesec h2.header-wrap.left:after, section.homesec .angle h2.left.location-wrap:after, .angle section.homesec h2.left.location-wrap:after {
+        left: 0px; }
+    section.homesec h2.header-wrap.right, section.homesec .angle h2.right.location-wrap, .angle section.homesec h2.right.location-wrap {
+      float: right; }
+      section.homesec h2.header-wrap.right span, section.homesec .angle h2.right.location-wrap span, .angle section.homesec h2.right.location-wrap span {
+        padding-right: 40px; }
+      section.homesec h2.header-wrap.right:after, section.homesec .angle h2.right.location-wrap:after, .angle section.homesec h2.right.location-wrap:after {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        right: 0px; }
   section.homesec.first:after {
     background-image: url("images/section1red.svg "); }
   section.homesec.second:after {
@@ -5505,20 +5515,20 @@ section.homesec {
   right: 0;
   Z-INDEX: 1000;
   justify-content: space-between; }
-  .content-container .left {
+  .content-container .top {
     align-self: flex-start;
     width: 50%;
     padding: 50px; }
-  .content-container .right {
+  .content-container .bottom {
     align-self: flex-end;
     width: 50%;
     padding: 50px; }
-    .content-container .right p {
+    .content-container .bottom p {
       font-size: 1.5rem;
       line-height: 1.1;
       color: #ffffff; }
     @media (max-width: 767px) {
-      .content-container .right {
+      .content-container .bottom {
         width: 100%; } }
 
 .window {
@@ -5531,5 +5541,13 @@ section.homesec {
   height: 50px;
   position: relative;
   float: left; }
+
+.btn-new {
+  background-color: #2b2b2b;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 40px;
+  color: #ffffff;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
