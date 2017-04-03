@@ -4,7 +4,9 @@ get_header(); ?>
 
 
     <section class="press">
+
         <h2 class="header-rtl">Guest Speakers</h2>
+
 
         <div class="content">
             <div class="speakers">
@@ -69,12 +71,15 @@ get_header(); ?>
     </section>
     <section class="press">
 
+
         <h2 class="header-ltr">Alumni Panel</h2>
+
 
         <div class="alumni">
             <div class="content" id="panelists">
                 <h6>May 2 @ 1:00 PM</h6>
                 <ul>
+
                     <li>Laurel Johnson<br>
                         Laurel is a front-end developer at Fjorge</li>
                     <li>Claire Campbell</li>
@@ -87,12 +92,15 @@ get_header(); ?>
                         Digital designer at Snap Agency</li>
                     <li>Rudy Fig (aka Sierra Riggs)<br>
                         Freelance illustrator/designer Rudy Fig Fine Art and Design</li>
+
                 </ul>
             </div>
         </div>
     </section>
     <section class="press">
+
         <h2 class="header-rtl">Connect</h2>
+
         <div class="content">
             <div id="press-twitter">
                 <h5>TWITTER</h5>

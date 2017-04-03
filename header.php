@@ -60,6 +60,11 @@
         <div class="site-branding">
 <!--            <img src="--><?php //echo get_template_directory_uri() ?><!--/images/logos/boundless-splash.svg" alt="">-->
 <?php  get_template_part('template-parts/boundless', 'splash'); ?>
+
+<!--            <div class="cubes">-->
+<!--                --><?php //get_template_part('template-parts/boundless', 'cubes'); ?>
+<!--            </div>-->
+
         </div><!-- .site-branding -->
     </header><!-- #masthead -->
 
