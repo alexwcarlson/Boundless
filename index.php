@@ -182,7 +182,10 @@ get_header(); ?>
 
             <section class="sec-press">
                 <h2>press</h2>
-                <?php echo do_shortcode(' [instagram-feed] '); ?>
+                                <?php echo do_shortcode(' [instagram-feed] '); ?>
+
+                <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/1a26519c6a7858ea8be34e5cc967f880.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
             </section>
 
 <?php get_footer(); ?>
