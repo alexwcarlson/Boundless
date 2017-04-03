@@ -43,12 +43,16 @@ jQuery(".header-logo a").click(function(event){
     var navigation = document.getElementById("myNav");
     jQuery("#toggle").on('click', function () {
         if (!jQuery(navigation).hasClass("open")) {
+
             jQuery('#svg-rotate').css({'transform': 'rotate(45deg)', 'transform-origin': '50% 50%'});
+
             jQuery(navigation).css({width: '100%'}).addClass('open');
             jQuery(".overlay-content, .overlay-content ul").show();
             jQuery(".overlay-content .page_item").fadeIn();
         } else {
+
             jQuery('#svg-rotate').css({'transform': 'rotate(0deg)', 'transform-origin': '50% 50%'});
+
             jQuery(navigation).css({width: '0%'}).removeClass('open');
         }
     });

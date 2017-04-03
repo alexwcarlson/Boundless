@@ -4,7 +4,9 @@ get_header(); ?>
 
 
     <section class="press">
+
         <h2 class="header-rtl">Guest Speakers</h2>
+
 
         <div class="content">
             <div class="speakers">
@@ -87,12 +89,15 @@ get_header(); ?>
                         Digital designer at Snap Agency</li>
                     <li>Rudy Fig (aka Sierra Riggs)<br>
                         Freelance illustrator/designer Rudy Fig Fine Art and Design</li>
+
                 </ul>
             </div>
         </div>
     </section>
     <section class="press">
+
         <h2 class="header-rtl">Connect</h2>
+
         <div class="content">
             <div id="press-twitter">
                 <h5>TWITTER</h5>
