@@ -2497,80 +2497,132 @@ html {
 h1 {
   font-family: "Rajdhani", helvetica, sans-serif;
   font-weight: 700;
-  font-size: 6rem;
+  font-size: 4rem;
   line-height: 1.2;
   letter-spacing: 1; }
   @media only screen and (min-width: 0px) {
     h1 {
-      font-size: 4rem; } }
+      font-size: 3.5rem; } }
   @media only screen and (min-width: 970px) {
     h1 {
-      font-size: 8rem; } }
+      font-size: 4rem; } }
 
 h2 {
   font-family: "Rajdhani", helvetica, sans-serif;
   font-weight: 600;
-  font-size: 5rem;
+  font-size: 3rem;
   line-height: 1.4;
   letter-spacing: 1; }
   @media only screen and (min-width: 0px) {
     h2 {
-      font-size: 3.3rem; } }
+      font-size: 2.5rem; } }
   @media only screen and (min-width: 970px) {
     h2 {
-      font-size: 7rem; } }
+      font-size: 3rem; } }
+
+h2.header-ltr, h2.header-rtl {
+  text-transform: uppercase;
+  position: relative;
+  padding: .75em;
+  color: #ffffff;
+  z-index: 1;
+  text-align: right; }
+  @media screen and (max-width: 767px) {
+    h2.header-ltr, h2.header-rtl {
+      width: 100%; } }
+  h2.header-ltr:after, h2.header-rtl:after {
+    display: block;
+    content: '';
+    background: url(images/boundless-ribbon.svg) top right;
+    background-size: cover;
+    height: 175px;
+    width: 55%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    position: absolute;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); }
+    @media screen and (max-width: 767px) {
+      h2.header-ltr:after, h2.header-rtl:after {
+        right: 0;
+        width: 100%;
+        height: 116px;
+        background-image: none;
+        background: #91d0ba;
+        /* Old browsers */
+        background: -moz-linear-gradient(left, #91d0ba 0%, #48b982 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #91d0ba 0%, #48b982 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #91d0ba 0%, #48b982 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#91d0ba', endColorstr='#48b982', GradientType=0);
+        /* IE6-9 */ } }
+
+h2.header-rtl {
+  text-align: left; }
+  h2.header-rtl:after {
+    top: 0;
+    left: 0;
+    -moz-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); }
 
 h3 {
   font-family: "Rajdhani", helvetica, sans-serif;
   font-weight: 500;
-  font-size: 4rem;
+  font-size: 2.8rem;
   line-height: 1.3;
   letter-spacing: 1; }
   @media only screen and (min-width: 0px) {
     h3 {
-      font-size: 2.8rem; } }
+      font-size: 2.2rem; } }
   @media only screen and (min-width: 970px) {
     h3 {
-      font-size: 6rem; } }
+      font-size: 3.3rem; } }
 
 h4 {
   font-family: "Rajdhani", helvetica, sans-serif;
   font-weight: 400;
-  font-size: 3.3rem;
+  font-size: 2.5rem;
   line-height: 1.6;
   letter-spacing: 1; }
   @media only screen and (min-width: 0px) {
     h4 {
-      font-size: 2.2rem; } }
+      font-size: 2rem; } }
   @media only screen and (min-width: 970px) {
     h4 {
-      font-size: 5rem; } }
+      font-size: 3rem; } }
 
 h5 {
   font-family: "Rajdhani", helvetica, sans-serif;
   font-weight: 300;
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   line-height: 1.6;
   letter-spacing: 1; }
   @media only screen and (min-width: 0px) {
     h5 {
-      font-size: 1.8rem; } }
+      font-size: 1.7rem; } }
   @media only screen and (min-width: 970px) {
     h5 {
-      font-size: 3.5rem; } }
+      font-size: 2.8rem; } }
 
 h6 {
   font-family: "Rajdhani", helvetica, sans-serif;
   font-weight: 200;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 2;
   letter-spacing: 1; }
   @media only screen and (min-width: 0px) {
     h6 {
-      font-size: 1.4rem; } }
+      font-size: 1.3rem; } }
   @media only screen and (min-width: 970px) {
     h6 {
-      font-size: 2.2rem; } }
+      font-size: 2.3rem; } }
 
 code {
   font-family: monospace;
@@ -2582,6 +2634,13 @@ code {
     content: "";
     display: block; }
 
+ul {
+  color: #40c2d2;
+  font-family: "Lato", arial, sans-serif; }
+  ul li {
+    margin: 7px 0;
+    padding: 5px; }
+
 p {
   font-family: "Lato", arial, sans-serif;
   font-size: 1rem;
@@ -2589,6 +2648,12 @@ p {
   line-height: 1.2;
   letter-spacing: 1;
   margin: .5em 0; }
+
+.mission {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  color: #ffcc66; }
 
 h1, h2, h3, h4, h5, h6, ul li, button {
   -webkit-transition: 0.2s;
@@ -4420,10 +4485,6 @@ a:hover, a:focus {
   text-decoration: none;
   transition: all .5s ease; }
 
-p {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  line-height: 22px;
-  font-size: 16px; }
 
 .site-branding {
   height: 100vh;
@@ -4459,6 +4520,7 @@ p {
     @media screen and (max-width: 767px) {
       .site-branding svg {
         width: 75%; } }
+
   .site-branding .cubes {
     position: absolute;
     top: 0;
@@ -4504,8 +4566,28 @@ p {
 #first, #third {
   background-color: rgba(43, 43, 43, 0.95); }
 
+
 section {
   position: relative; }
+
+
+.content {
+  padding: 5% 15% 0 15%; }
+  @media screen and (max-width: 768px) {
+    .content {
+      padding: 10% 35% 0 15%;
+      margin: 0; } }
+  @media screen and (max-width: 767px) {
+    .content {
+      padding: 10% 0 10% 0;
+      margin: 0; } }
+
+.bottom-header {
+  font-size: 3rem;
+  color: #90d1bb; }
+  .bottom-header small {
+    font-size: 1.75rem;
+    line-height: 1rem; }
 
 .angle-behind {
   height: 100%;
@@ -4910,6 +4992,7 @@ section {
       margin-left: 0;
       margin-right: 0; } }
 
+
 .menu-toggle {
   background: #d7d7d7;
   box-shadow: 0 0 10px -1px #222222;
@@ -4965,6 +5048,7 @@ section {
     fill: #ffffff;
     transition: transform 1s ease; }
 
+
 .portfolio .angle-inner {
   width: 100%;
   margin: 75px 0;
@@ -4972,6 +5056,7 @@ section {
   @media screen and (max-width: 767px) {
     .portfolio .angle-inner {
       margin: 75px 0 15px 0; } }
+
 .portfolio .portfolio-btn {
   width: 100%;
   padding: 75px 0;
@@ -4983,6 +5068,7 @@ section {
   font-weight: 600;
   color: #ffffff;
   background-color: #ffcc66; }
+
 .portfolio .stripe-3 {
   height: 60px;
   margin: 30px 0; }
@@ -5150,6 +5236,7 @@ section {
   .on-mobile {
     display: block; } }
 
+
 #map {
   width: 100%;
   height: 100%; }
@@ -5161,9 +5248,9 @@ section {
   margin-bottom: 50px; }
 
 .press {
-  height: auto;
-  clear: both;
-  border: none; }
+
+  margin-top: 125px; }
+
   .press h2 {
     font-size: 3rem;
     text-transform: uppercase;
@@ -5216,9 +5303,11 @@ section {
           filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#91d0ba', endColorstr='#48b982', GradientType=0);
           /* IE6-9 */ } }
 
+
 .alumni {
   background-color: rgba(255, 255, 255, 0.7);
   padding-bottom: 25px; }
+
   .alumni #panelists {
     width: calc(33.33333% - 26.66667px);
     float: left;
@@ -5236,6 +5325,7 @@ section {
 
 .speakers {
   float: left;
+
   width: 100%;
   margin: 0 auto;
   padding: 50px;
@@ -5424,6 +5514,7 @@ section {
   100% {
     opacity: 1;
     transform: translate(0, 0); } }
+
 section.homesec {
   z-index: inherit;
   height: 100vh;
@@ -5542,12 +5633,5 @@ section.homesec {
   position: relative;
   float: left; }
 
-.btn-new {
-  background-color: #2b2b2b;
-  display: inline-block;
-  text-align: center;
-  padding: 20px 40px;
-  color: #ffffff;
-  text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */

@@ -32,18 +32,31 @@ get_header(); ?>
         }
     </style>
     <div id="primary" class="content-area">
+
         <main id="main" class="site-main" role="main">
             <section class="homesec first">
-                <h2 class="header-wrap right">
-                    <span>
-                        we are boundless
-                    </span>
+                <h2 class="header-ltr">
+                    we are boundless
                 </h2>
 
                 <div class="content-container">
-                    <div class="top"></div>
-                    <div class="bottom">
-                        <p>We are multidimensional designers and developers creating work
+
+                    <div class="left">
+                        <h3 class="bottom-header">May 3 - 4<br>
+                            Minneapolis Community <br>
+                            &amp; Technical College
+                        </h3>
+                        <p>Where: 1501 Hennepin Ave<br>
+                            Minneapolis, MN 55403<br>
+                            Room L300 </p>
+                        <p>Follow the signs at all main entrances of T Building and/or Whitney Hall (include map).
+                            There are also directional signs at the parking entrances of every level of ramp and
+                            follow the signs the whole way.
+
+                        </p>
+                    </div>
+                    <div class="right">
+                        <p class="mission">We are multidimensional designers and developers creating work
                             that embodies the breadth of our passion. Delight in the array of possibilities we
                             have to showcase.
                         </p>
@@ -86,66 +99,48 @@ get_header(); ?>
                 <!--                </div><!-- .angle -->
             </section>
 
-            <section class="homesec second">
-                <!--                <h2 class="header-wrap left">-->
-                <!--                    <span>-->
-                <!--                      Student work-->
-                <!--                    </span>-->
-                <!--                </h2>-->
-                <div class="content-container">
-                    <div class="bottom">
-                        <p>Come delight in the work of 47 web and graphic designers at the 2017 web
-                            and graphic design portfolio show, Boundless! This event allows each guest the
-                            opportunity to view a wide variety of projects forged from a combination of creative passion
-                           and many late nights as well as meet the artists behind the work.
-                        </p>
-                        <a href="/students" class="btn-new">Meet the Students</a>
-                    </div>
-                    <div class="top">
 
-                    </div>
-                </div>
-                <!--                <div class="angle-behind"></div>-->
-
-                <!--                <div id="second" class="angle portfolio">-->
-                <!--                    <div class="stripe stripe-3 stripe-first"></div>-->
-                <!--                    <div class="stripe stripe-2"></div>-->
-                <!--                    <div class="stripe stripe-1"></div>-->
-
-                <!--                    <div class="angle-inner">-->
-                <!--                        <a href="/students" class="portfolio-btn">view our portfolio</a>-->
-                <!--                    </div><!-- .angle-inner -->
-
-                <!--                    <div class="stripe stripe-1"></div>-->
-                <!--                    <div class="stripe stripe-2"></div>-->
-                <!--                    <div class="stripe stripe-3 stripe-last"></div>-->
-                <!--                </div><!-- .angle -->
-
-                <!--                <div class="web-full on-mobile">-->
-                <!--                    <a href="/students#print">web</a>-->
-                <!--                </div>-->
-                <!--                <div class="print-full on-mobile">-->
-                <!--                    <a href="/students#web">Print</a>-->
-                <!--                </div>-->
-            </section>
-            <section class="homesec third">
+            <section class="homesec second portfolio">
                 <h2 class="header-wrap left">
                     <span>
-                        Schedule
+                        we are boundless
                     </span>
                 </h2>
-                <div class="content-container">
 
-                    <div class="top">
 
-                    </div>
-                    <div class="bottom">
-                        <p>We are multidimensional designers and developers creating work
-                            that embodies the breadth of our passion. Delight in the array of possibilities we
-                            have to showcase.
-                        </p>
-                    </div>
-                </div>
+                <p>Come delight in the work of 47 web and graphic designers at the 2017 web
+                    and graphic design portfolio show, Boundless! This event allows each guest the
+                    opportunity to view a wide variety of projects forged from creative passion — and
+                    many late nights — and meet the artists behind the work.</p>
+                <a href="/students" class="portfolio-btn">view student work</a>
+
+            </section>
+
+            <section class="homesec third content">
+                <h2 class="header-rtl">schedule</h2>
+
+                <article class="content">
+                    <h4>Tuesday, May 2</h4>
+                    <h5>10 AM - 8 PM</h5>
+                    <ul>
+                        <li>1 PM - Alumni Panel<br>
+                            <a href="">View list of alumni</a>
+                        </li>
+                        <li>5 PM - Keynote Speaker<br>
+                            Tim Brunelle from BBDO Minneapolis
+                        </li>
+                        <li>5:30 PM - Opening Reception
+                        </li>
+                    </ul>
+
+                    <h4>Wednesday, May 3</h4>
+                    <h5>10 AM - 7 PM</h5>
+                    <ul>
+                        <li>5 PM Keynote Speaker<br>
+                            Michelle Schulp from Marktime Media
+                        </li>
+                    </ul>
+
             </section>
             <section class="homesec fourth">
 
@@ -187,6 +182,7 @@ get_header(); ?>
 
             <section class="sec-press">
                 <h2>press</h2>
+                <?php echo do_shortcode(' [instagram-feed] '); ?>
             </section>
 
-<?php get_footer();
+<?php get_footer(); ?>

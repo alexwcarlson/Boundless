@@ -37,6 +37,10 @@ get_header(); ?>
                     $i = 0;
                     foreach ($taxonomy_ar as $taxonomy_term) {
                         $i++;
+
+                        echo $i;
+//                        conflict on line 41
+
                         if($i >= 2) {
                             $output .= '+ ' . $taxonomy_term->name . ' ';
                         }
