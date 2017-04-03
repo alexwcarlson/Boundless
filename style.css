@@ -4791,11 +4791,7 @@ section {
     margin-bottom: 50px; }
 
 .sbi_follow_btn {
-<<<<<<< HEAD
-  width: calc(16.6666666667% - 23.3333333333px);
-=======
-  width: auto);
->>>>>>> origin/master
+
   float: left;
   margin-left: 20px;
   margin-left: calc(41.6666666667% - 28.3333333333px + 40px);
