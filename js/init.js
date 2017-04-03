@@ -70,38 +70,43 @@ jQuery(".header-logo a").click(function(event){
         });
     });
 
-});
 
-jQuery(window).load(function () {
-    if (jQuery(window).width() >= 480) {
-        jQuery(updateBoxDimension);
-    }
-    jQuery(window).on('resize', function () {
-        if (jQuery(window).width() >= 480) {
-            updateBoxDimension();
-        }
-    });
+//    initialize the google amp on document ready
     initMap();
 
-    function updateBoxDimension() {
-        var offsetLeft1 = jQuery("#first").offset();
-        jQuery("#second").css({
-            marginLeft: offsetLeft1.left - 145
-        });
-
-        var offsetLeft1 = jQuery("#second").offset();
-        jQuery("#third").css({
-            marginLeft: offsetLeft1.left - 135
-        });
-    }
-
-
 });
+
+// jQuery(window).load(function () {
+//     if (jQuery(window).width() >= 480) {
+//         jQuery(updateBoxDimension);
+//     }
+//     jQuery(window).on('resize', function () {
+//         if (jQuery(window).width() >= 480) {
+//             updateBoxDimension();
+//         }
+//     });
+//
+//
+//     function updateBoxDimension() {
+//         var offsetLeft1 = jQuery("#first").offset();
+//         jQuery("#second").css({
+//             marginLeft: offsetLeft1.left - 145
+//         });
+//
+//         var offsetLeft1 = jQuery("#second").offset();
+//         jQuery("#third").css({
+//             marginLeft: offsetLeft1.left - 135
+//         });
+//     }
+//
+//
+// });
 // jQuery(".container .line").each(function() {
 //     var i = 1;
 //     var margin = 2% + (i * 1.7);
 //     jQuery(this).css("margin-left", margin);
 // });
+
 function initMap() {
     // Styles for map
     var mapStyles = [

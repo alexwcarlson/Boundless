@@ -40,6 +40,7 @@ get_header(); ?>
                 </h2>
 
                 <div class="content-container">
+
                     <div class="left">
                         <h3 class="bottom-header">May 3 - 4<br>
                             Minneapolis Community <br>
@@ -98,12 +99,14 @@ get_header(); ?>
                 <!--                </div><!-- .angle -->
             </section>
 
+
             <section class="homesec second portfolio">
                 <h2 class="header-wrap left">
                     <span>
                         we are boundless
                     </span>
                 </h2>
+
 
                 <p>Come delight in the work of 47 web and graphic designers at the 2017 web
                     and graphic design portfolio show, Boundless! This event allows each guest the
@@ -112,6 +115,7 @@ get_header(); ?>
                 <a href="/students" class="portfolio-btn">view student work</a>
 
             </section>
+
             <section class="homesec third content">
                 <h2 class="header-rtl">schedule</h2>
 
@@ -136,10 +140,12 @@ get_header(); ?>
                             Michelle Schulp from Marktime Media
                         </li>
                     </ul>
+
             </section>
             <section class="homesec fourth">
-                <div class="angle-behind">
-                    <div id="map"></div>
+
+                <div id="map">
+
                 </div>
                 <!--                <div id="third" class="angle location">-->
                 <!--                    <h2 class="location-wrap">we are boundless</h2>-->
