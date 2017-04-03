@@ -6,9 +6,6 @@ get_header(); ?>
     <section class="press">
 
         <h2 class="header-rtl">Guest Speakers</h2>
-
-
-        <div class="content">
             <div class="speakers">
                 <div class="profile">
                     <img class="size-medium wp-image-19"
@@ -67,7 +64,6 @@ get_header(); ?>
                 </div>
 
             </div>
-        </div>
     </section>
     <section class="press">
 
@@ -101,7 +97,6 @@ get_header(); ?>
 
         <h2 class="header-rtl">Connect</h2>
 
-        <div class="content">
             <div id="press-twitter">
                 <h5>TWITTER</h5>
                 <?php echo do_shortcode( '[wp-social-media-slider]' ); ?>
@@ -124,7 +119,6 @@ get_header(); ?>
                     </a>
                 </div>
             </div>
-        </div>
     </section>
 
 <?php get_footer(); ?>

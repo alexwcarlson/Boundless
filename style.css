@@ -4647,6 +4647,12 @@ section {
   background-color: #fff;
   padding: 20px;
   margin-bottom: 50px; }
+  @media screen and (max-width: 767px) {
+    .wpsms-container {
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+  }
 
 .press {
   margin-top: 125px; }
@@ -4682,7 +4688,6 @@ section {
   .speakers .text {
     width: calc(66.66667% - 33.33333px);
     float: left;
-    margin-left: 20px;
     margin-left: 20px; }
     @media screen and (max-width: 767px) {
       .speakers .text {
@@ -4694,12 +4699,16 @@ section {
 #press-twitter {
   background-color: rgba(144, 209, 187, 0.7);
   padding-top: 20px;
-  padding-bottom: 65px;
+  padding-bottom: 85px;
   padding-left: 100px;
   padding-right: 100px; }
   #press-twitter h5 {
     text-align: center;
-    margin: 50px 0; }
+    margin: 30px 0; }
+  @media screen and (max-width: 767px) {
+    #press-twitter {
+      padding-right: 20px;
+      padding-left: 20px; }  }
 
 .rotating-tweets {
   border: none; }
@@ -4707,8 +4716,7 @@ section {
 #press-instagram {
   text-align: center;
   background: rgba(255, 255, 255, 0.7);
-  /*margin-bottom: 30px;*/
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   padding-right: 100px;
   padding-left: 100px; }
   #press-instagram h5 {
@@ -4716,11 +4724,16 @@ section {
   #press-instagram #sb_instagram {
     width: 90%;
     margin-bottom: 50px; }
+  @media screen and (max-width: 767px) {
+    #press-instagram {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
 
 .sbi_follow_btn {
   width: calc(16.66667% - 23.33333px);
   float: left;
-  margin-left: 20px;
   margin-left: calc(41.66667% - 28.33333px + 40px);
   background: #3aa8a7;
   text-align: center; }
@@ -4729,9 +4742,7 @@ section {
     display: block; }
   @media screen and (max-width: 767px) {
     .sbi_follow_btn {
-      width: calc(100% - 40px);
       float: left;
-      margin-left: 20px;
       margin-left: calc(0% - 20px + 40px);
       width: 100%;
       margin: 0; } }
