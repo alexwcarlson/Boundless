@@ -227,12 +227,12 @@ section {
 
 .svg-toggle {
   height: 111px;
-  width: 46px;
+  width: 45px;
   z-index: 10000;
   position: fixed;
   top: 0;
   right: 0;
-  animation: bounce 1s 4s cubic-bezier(.84,-0.54,.31,1.19);
+  animation: bounce 1s 2.5s cubic-bezier(.84,-0.54,.31,1.19);
 
   .base {
     fill: #dadada;
@@ -258,22 +258,21 @@ section {
     transform: none;
   }
   50% {
-    transform: translateX(-.5em);
+    transform: translateX(-.4em);
   }
   55% {
-    transform: translateX(-.6em);
+    transform: translateX(-.5em);
   }
   85% {
     transform: translateX(0);
   }
   90% {
-    transform: translateX(-.1em);
+    transform: translateX(-.05em);
   }
 }
 
-.portfolio {
 
-  .portfolio-btn {
+  a.portfolio-btn {
     width: auto;
     padding: 20px 40px;
     display: inline-block;
@@ -283,20 +282,45 @@ section {
     font-size: 1.5em;
     font-weight: 600;
     color: $white;
-    background-color: $yellow;
+    background-color: $gray;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+
+    &:hover {
+      color: $blue;
+      background-color: $black;
+      -webkit-transition: all .3s ease;
+      -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease;
+    }
   }
 
-}
+  a.press-btn {
+    @extend .portfolio-btn;
+    color: $white;
+    background-color: $gray;
+
+    &:hover {
+      color: $yellow;
+      background-color: $black;
+    }
+  }
+
+
 
 .sec-press {
   background: $purple;
 
   h2 {
-    font-size: 3rem;
     text-transform: uppercase;
-    padding: 50px 10px;
-    color: $black;
-    font-weight: 600;
+    position: relative;
+    padding: .75em 1.5em;
+    color: $white;
   }
 
 }
@@ -331,7 +355,7 @@ section {
 }
 
 .speakers {
-  //float: left;
+  float: left;
   width: 100%;
   margin: 0 auto;
   padding: 50px;
@@ -382,6 +406,48 @@ section {
     text-align: center;
     margin: 50px 0;
   }
+
+  .sbi_follow_btn {
+    @include grid-column(4);
+    @include grid-push(5);
+    float: none;
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+
+    a {
+      padding: 20px 40px !important;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: $heading-stack !important;
+      font-size: 1.5em !important;
+      font-weight: 600 !important;
+      color: $white;
+      background-color: $gray;
+      border-radius: 0 !important;
+
+      &:hover {
+        color: $green !important;
+        background-color: $black !important;
+        opacity: 1 !important;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      @include grid-column(12);
+      @include grid-push(0);
+      width: 100%;
+      margin: 0;
+    }
+  }
 }
 
 .rotating-tweets {
@@ -403,18 +469,85 @@ section {
     width: 90%;
     margin-bottom: 50px;
   }
+
+
+  .sbi_follow_btn {
+    @include grid-column(4);
+    @include grid-push(5);
+    float: none;
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+
+    a {
+      padding: 20px 40px !important;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: $heading-stack !important;
+      font-size: 1.5em !important;
+      font-weight: 600 !important;
+      color: $white;
+      background-color: $gray;
+      border-radius: 0 !important;
+
+      &:hover {
+        color: $white !important;
+        background-color: $black !important;
+        opacity: 1 !important;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      @include grid-column(12);
+      @include grid-push(0);
+      width: 100%;
+      margin: 0;
+    }
+  }
 }
 
 .sbi_follow_btn {
-  @include grid-column(2);
+  @include grid-column(4);
   @include grid-push(5);
-  background: #3aa8a7;
-  text-align: center;
+  float: none;
+
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
 
   a {
-    padding: 15px;
-    display: block;
+    padding: 20px 40px !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $heading-stack !important;
+    font-size: 1.5em !important;
+    font-weight: 600 !important;
+    color: $white;
+    background-color: $gray;
+    border-radius: 0 !important;
+
+    &:hover {
+      color: $purple !important;
+      background-color: $black !important;
+      opacity: 1 !important;
+      -webkit-transition: all .3s ease;
+      -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease;
+    }
   }
+
   @media screen and (max-width: 767px) {
     @include grid-column(12);
     @include grid-push(0);

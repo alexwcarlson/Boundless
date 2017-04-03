@@ -2522,7 +2522,7 @@ h2 {
 h2.header-ltr, h2.header-rtl {
   text-transform: uppercase;
   position: relative;
-  padding: .75em;
+  padding: .75em 1.5em;
   color: #ffffff;
   z-index: 2;
   text-align: right; }
@@ -2653,7 +2653,8 @@ p {
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 1.8rem;
-  color: #ffcc66; }
+  color: #ffcc66;
+  text-align: right; }
 
 h1, h2, h3, h4, h5, h6, ul li, button {
   -webkit-transition: 0.2s;
@@ -4400,12 +4401,12 @@ section {
 
 .svg-toggle {
   height: 111px;
-  width: 46px;
+  width: 45px;
   z-index: 10000;
   position: fixed;
   top: 0;
   right: 0;
-  animation: bounce 1s 4s cubic-bezier(0.84, -0.54, 0.31, 1.19); }
+  animation: bounce 1s 2.5s cubic-bezier(0.84, -0.54, 0.31, 1.19); }
   .svg-toggle .base {
     fill: #dadada; }
   .svg-toggle .tri {
@@ -4421,14 +4422,14 @@ section {
   0% {
     transform: none; }
   50% {
-    transform: translateX(-0.5em); }
+    transform: translateX(-0.4em); }
   55% {
-    transform: translateX(-0.6em); }
+    transform: translateX(-0.5em); }
   85% {
     transform: translateX(0); }
   90% {
-    transform: translateX(-0.1em); } }
-.portfolio .portfolio-btn {
+    transform: translateX(-0.05em); } }
+a.portfolio-btn, a.press-btn {
   width: auto;
   padding: 20px 40px;
   display: inline-block;
@@ -4438,16 +4439,35 @@ section {
   font-size: 1.5em;
   font-weight: 600;
   color: #ffffff;
-  background-color: #ffcc66; }
+  background-color: #58595b;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease; }
+  a.portfolio-btn:hover, a.press-btn:hover {
+    color: #40c2d2;
+    background-color: #222222;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; }
+
+a.press-btn {
+  color: #ffffff;
+  background-color: #58595b; }
+  a.press-btn:hover {
+    color: #ffcc66;
+    background-color: #222222; }
 
 .sec-press {
   background: #6772B7; }
   .sec-press h2 {
-    font-size: 3rem;
     text-transform: uppercase;
-    padding: 50px 10px;
-    color: #222222;
-    font-weight: 600; }
+    position: relative;
+    padding: .75em 1.5em;
+    color: #ffffff; }
 
 #map {
   width: 100%;
@@ -4467,6 +4487,7 @@ section {
   padding-bottom: 25px; }
 
 .speakers {
+  float: left;
   width: 100%;
   margin: 0 auto;
   padding: 50px;
@@ -4511,6 +4532,44 @@ section {
   #press-twitter h5 {
     text-align: center;
     margin: 50px 0; }
+  #press-twitter .sbi_follow_btn {
+    width: calc(33.33333% - 26.66667px);
+    float: left;
+    margin-left: 20px;
+    margin-left: calc(41.66667% - 28.33333px + 40px);
+    float: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; }
+    #press-twitter .sbi_follow_btn a {
+      padding: 20px 40px !important;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "Rajdhani", helvetica, sans-serif !important;
+      font-size: 1.5em !important;
+      font-weight: 600 !important;
+      color: #ffffff;
+      background-color: #58595b;
+      border-radius: 0 !important; }
+      #press-twitter .sbi_follow_btn a:hover {
+        color: #90d1bb !important;
+        background-color: #222222 !important;
+        opacity: 1 !important;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease; }
+    @media screen and (max-width: 767px) {
+      #press-twitter .sbi_follow_btn {
+        width: calc(100% - 40px);
+        float: left;
+        margin-left: 20px;
+        margin-left: calc(0% - 20px + 40px);
+        width: 100%;
+        margin: 0; } }
 
 .rotating-tweets {
   border: none; }
@@ -4527,17 +4586,75 @@ section {
   #press-instagram #sb_instagram {
     width: 90%;
     margin-bottom: 50px; }
+  #press-instagram .sbi_follow_btn {
+    width: calc(33.33333% - 26.66667px);
+    float: left;
+    margin-left: 20px;
+    margin-left: calc(41.66667% - 28.33333px + 40px);
+    float: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; }
+    #press-instagram .sbi_follow_btn a {
+      padding: 20px 40px !important;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "Rajdhani", helvetica, sans-serif !important;
+      font-size: 1.5em !important;
+      font-weight: 600 !important;
+      color: #ffffff;
+      background-color: #58595b;
+      border-radius: 0 !important; }
+      #press-instagram .sbi_follow_btn a:hover {
+        color: #ffffff !important;
+        background-color: #222222 !important;
+        opacity: 1 !important;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease; }
+    @media screen and (max-width: 767px) {
+      #press-instagram .sbi_follow_btn {
+        width: calc(100% - 40px);
+        float: left;
+        margin-left: 20px;
+        margin-left: calc(0% - 20px + 40px);
+        width: 100%;
+        margin: 0; } }
 
 .sbi_follow_btn {
-  width: calc(16.66667% - 23.33333px);
+  width: calc(33.33333% - 26.66667px);
   float: left;
   margin-left: 20px;
   margin-left: calc(41.66667% - 28.33333px + 40px);
-  background: #3aa8a7;
-  text-align: center; }
+  float: none;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease; }
   .sbi_follow_btn a {
-    padding: 15px;
-    display: block; }
+    padding: 20px 40px !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Rajdhani", helvetica, sans-serif !important;
+    font-size: 1.5em !important;
+    font-weight: 600 !important;
+    color: #ffffff;
+    background-color: #58595b;
+    border-radius: 0 !important; }
+    .sbi_follow_btn a:hover {
+      color: #6772B7 !important;
+      background-color: #222222 !important;
+      opacity: 1 !important;
+      -webkit-transition: all .3s ease;
+      -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease; }
   @media screen and (max-width: 767px) {
     .sbi_follow_btn {
       width: calc(100% - 40px);
