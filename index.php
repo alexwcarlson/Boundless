@@ -182,7 +182,9 @@ get_header(); ?>
 
             <section class="sec-press">
                 <h2>press</h2>
+
                 <?php echo do_shortcode(' [instagram-feed cols=5 num=5 imageres=med showbutton=false width=75 widthunit=% showfollow=true] '); ?>
+
             </section>
 
 <?php get_footer(); ?>
