@@ -125,10 +125,12 @@ get_header(); ?>
 
             </div>
         </section>
+            <section class="sec-press">
+                <h2>press</h2>
 
-        <section class="sec-press">
-            <h2>press</h2>
-            <?php echo do_shortcode(' [instagram-feed] '); ?>
-        </section>
+                <?php echo do_shortcode(' [instagram-feed cols=5 num=5 imageres=med showbutton=false width=75 widthunit=% showfollow=true] '); ?>
 
-        <?php get_footer(); ?>
+            </section>
+
+<?php get_footer(); ?>
+

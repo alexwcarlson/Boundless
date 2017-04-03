@@ -232,20 +232,42 @@ section {
   position: fixed;
   top: 0;
   right: 0;
+  animation: bounce 1s 4s cubic-bezier(.84,-0.54,.31,1.19);
 
   .base {
-    fill: $red;
+    fill: #dadada;
   }
   .tri {
-    fill: $yellow;
+    fill: $white;
   }
   .cls-3 {
     opacity: 0.2;
     mix-blend-mode: multiply;
   }
   .plus {
-    fill: $white;
+    fill: $blue;
     transition: transform 1s ease;
+  }
+}
+
+
+
+
+@keyframes bounce {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateX(-.5em);
+  }
+  55% {
+    transform: translateX(-.6em);
+  }
+  85% {
+    transform: translateX(0);
+  }
+  90% {
+    transform: translateX(-.1em);
   }
 }
 

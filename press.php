@@ -6,9 +6,6 @@ get_header(); ?>
     <section class="press">
 
         <h2 class="header-rtl">Guest Speakers</h2>
-
-
-        <div class="content">
             <div class="speakers">
                 <div class="profile">
                     <img class="size-medium wp-image-19"
@@ -67,7 +64,6 @@ get_header(); ?>
                 </div>
 
             </div>
-        </div>
     </section>
     <section class="press">
 
@@ -77,21 +73,32 @@ get_header(); ?>
 
         <div class="alumni">
             <div class="content" id="panelists">
-                <h6>May 2 @ 1:00 PM</h6>
-                <ul>
+                <h5>May 2 @ 1:00 PM</h5>
+                <ul id="panelists">
 
-                    <li>Laurel Johnson<br>
-                        Laurel is a front-end developer at Fjorge</li>
-                    <li>Claire Campbell</li>
-                    <li>Aaron Hurst<br>
-                        Co-owner of Conjure Shop, a freelance design &amp; marketing company</li>
-                    <li>Jerrald (Jay) Spencer<br>
+                    <li>
+                        <h6>Laurel Johnson</h6>
+                        Laurel is a front-end developer at Fjorge
+                    </li>
+                    <li>
+                        <h6>Claire Campbell
+                    </li>
+                    <li>
+                        <h6>Aaron Hurst</h6>
+                        Co-owner of Conjure Shop, a freelance design &amp; marketing company
+                    </li>
+                    <li>
+                        <h6>Jerrald (Jay) Spencer</h6>
                         Freelance, graphic designer U of M
                     </li>
-                    <li>Damien Kirchoff<br>
-                        Digital designer at Snap Agency</li>
-                    <li>Rudy Fig (aka Sierra Riggs)<br>
-                        Freelance illustrator/designer Rudy Fig Fine Art and Design</li>
+                    <li>
+                        <h6>Damien Kirchoff</h6>
+                        Digital designer at Snap Agency
+                    </li>
+                    <li>
+                        <h6>Rudy Fig (aka Sierra Riggs)</h6>
+                        Freelance illustrator/designer Rudy Fig Fine Art and Design
+                    </li>
 
                 </ul>
             </div>
@@ -101,7 +108,6 @@ get_header(); ?>
 
         <h2 class="header-rtl">Connect</h2>
 
-        <div class="content">
             <div id="press-twitter">
                 <h5>TWITTER</h5>
                 <?php echo do_shortcode( '[wp-social-media-slider]' ); ?>
@@ -124,7 +130,6 @@ get_header(); ?>
                     </a>
                 </div>
             </div>
-        </div>
     </section>
 
 <?php get_footer(); ?>

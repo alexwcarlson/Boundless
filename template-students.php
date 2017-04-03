@@ -15,7 +15,7 @@ get_header(); ?>
 
             <ul>
                 <li class="box right-skew boundless-button"><h2 id="show-web" class="filter-button" data-filter=".Web">web</h2></li>
-                <li class="center-skew"><h2 id="show-both" class="filter-button" data-filter=".Web.Print">web + print</h2></li>
+                <li class="center-skew"><h2 id="show-both" class="filter-button" data-filter=".Web.Print">both</h2></li>
                 <li class="box left-skew boundless-button"><h2 id="show-print" class="filter-button" data-filter=".Print">print</h2></li>
             </ul>
 

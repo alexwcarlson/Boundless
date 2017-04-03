@@ -3,7 +3,6 @@
 Theme Name: Boundless
 Authors: Keisha Bien, Alex Carlson, Matthew Howe, Mai Xiong, Jesse Wollin, Alison Budny, Rebecca Power, Rachel Holtz, Jake Schlichting, Noah Marrow
 Description: Custom Wordpress Theme for the Boundless Design Show for graduating Minneapolis Community and Technical College students.
-boom
 */
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -2944,6 +2943,9 @@ footer {
     clear: both;
     content: "";
     display: block; }
+  footer a:hover, footer a:focus {
+    font-size: 1rem;
+    color: #40c2d2; }
   footer .left {
     width: calc(50% - 30px);
     float: left;
@@ -4397,18 +4399,30 @@ section {
   z-index: 10000;
   position: fixed;
   top: 0;
-  right: 0; }
+  right: 0;
+  animation: bounce 1s 4s cubic-bezier(0.84, -0.54, 0.31, 1.19); }
   .svg-toggle .base {
-    fill: #f1675d; }
+    fill: #dadada; }
   .svg-toggle .tri {
-    fill: #ffcc66; }
+    fill: #ffffff; }
   .svg-toggle .cls-3 {
     opacity: 0.2;
     mix-blend-mode: multiply; }
   .svg-toggle .plus {
-    fill: #ffffff;
+    fill: #40c2d2;
     transition: transform 1s ease; }
 
+@keyframes bounce {
+  0% {
+    transform: none; }
+  50% {
+    transform: translateX(-0.5em); }
+  55% {
+    transform: translateX(-0.6em); }
+  85% {
+    transform: translateX(0); }
+  90% {
+    transform: translateX(-0.1em); } }
 .portfolio .portfolio-btn {
   width: auto;
   padding: 20px 40px;
@@ -4863,5 +4877,140 @@ section.homesec {
 @media (max-width: 767px) {
   #map {
     display: none; } }
+
+/*//////////////////////////
+///student page overrides///
+//////////////////////////*/
+@media screen and (min-width: 220px) {
+  .profile-page-mobile .image .name {
+    float: left;
+    left: calc(0% - 20px + 20px);
+    margin-left: 20px;
+    margin-top: -100px;
+    position: absolute;
+    width: calc(100% - 40px); }
+
+  .profile-page-mobile .image .name h1 {
+    font-size: 1.5rem;
+    filter: drop-shadow(-0.5px 0.5px 0px #58595b); }
+
+  .profile-page-mobile .image .name h3 {
+    font-size: 1.5rem;
+    filter: drop-shadow(-0.5px 0.5px 0px #58595b); }
+
+  .content-right a,
+  .content-right a:link,
+  .content-right a:visited {
+    filter: none;
+    font-size: 1rem;
+    color: #40c2d2;
+    letter-spacing: 1px; }
+
+  .project h2#project-title {
+    font-size: 1.5rem; } }
+@media screen and (min-width: 320px) {
+  .profile-page-mobile .image .name {
+    margin-top: -120px; }
+
+  .profile-page-mobile .image .name h1 {
+    font-size: 1.8rem; }
+
+  .profile-page-mobile .image .name h3 {
+    font-size: 1.75rem; }
+
+  .content-right a,
+  .content-right a:link,
+  .content-right a:visited {
+    filter: none;
+    font-size: 1.5rem; }
+
+  .project h2#project-title {
+    padding: 25px 40% 5% 5%; } }
+@media screen and (min-width: 364px) {
+  .profile-page-mobile .image .name {
+    margin-top: -140px; }
+
+  .profile-page-mobile .image .name h1 {
+    font-size: 2rem; }
+
+  .profile-page-mobile .image .name h3 {
+    font-size: 1.5rem; }
+
+  .content-right a,
+  .content-right a:link,
+  .content-right a:visited {
+    filter: none;
+    font-size: 1.5rem; } }
+@media screen and (min-width: 640px) {
+  .profile-page-mobile .image .name {
+    margin-top: -180px; }
+
+  .profile-page-mobile .image .name h1 {
+    font-size: 3.5rem; }
+
+  .profile-page-mobile .image .name h3 {
+    font-size: 2rem; }
+
+  .content-right a,
+  .content-right a:link,
+  .content-right a:visited {
+    font-size: 1.75rem; }
+
+  .project h2#project-title {
+    font-size: 2rem;
+    background-image: url("images/B-Assets-Final/ribbon.svg");
+    background-position: top left;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%; } }
+@media screen and (min-width: 800px) {
+  .profile-page-mobile .image .name {
+    margin-top: -200px; }
+
+  .profile-page-mobile .image .name h1 {
+    font-size: 4.5rem; }
+
+  .profile-page-mobile .image .name h3 {
+    font-size: 2.5rem; }
+
+  .content-right a,
+  .content-right a:link,
+  .content-right a:visited {
+    font-size: 1.75rem; }
+
+  .project h2#project-title {
+    padding: 15px 20% 5% 5%;
+    font-size: 3rem; } }
+@media screen and (min-width: 854px) {
+  .content-right a,
+  .content-right a:link,
+  .content-right a:visited {
+    font-size: 1.75rem; }
+
+  .project h2#project-title {
+    padding: 15px 20% 5% 2%;
+    font-size: 2.70rem; } }
+@media screen and (min-width: 968px) {
+  .content-right h1 {
+    font-size: 4rem;
+    filter: none; }
+
+  .content-right h3 {
+    font-size: 2rem;
+    filter: none; }
+
+  .content-right a,
+  .content-right a:link,
+  .content-right a:visited {
+    filter: none;
+    font-size: 1.5rem;
+    color: #40c2d2;
+    filter: none; } }
+@media screen and (min-width: 1152px) {
+  .content-right h1 {
+    font-size: 5rem; } }
+section.image-grid h6 {
+  font-weight: 400; }
 
 /*# sourceMappingURL=style.css.map */
