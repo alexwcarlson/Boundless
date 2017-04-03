@@ -1,0 +1,174 @@
+/*//////////////////////////
+///student page overrides///
+//////////////////////////*/
+////////////  mobile  //////////////
+@media screen and (min-width: 220px) {
+    .profile-page-mobile .image .name {
+        float: left;
+        left: calc(0% - 20px + 20px);
+        margin-left: 20px;
+        margin-top: -100px;
+        position: absolute;
+        width: calc(100% - 40px);
+    }
+    .profile-page-mobile .image .name h1,
+    {
+        font-size: 1.5rem;
+        filter: drop-shadow($boundless-shadow-sharp);
+    }
+    .profile-page-mobile .image .name h3 {
+        font-size: 1.5rem;
+        filter: drop-shadow($boundless-shadow-sharp);
+    }
+    .content-right a,
+    .content-right a:link,
+    .content-right a:visited {
+        filter: none;
+        font-size: 1rem;
+        color: $blue;
+        letter-spacing: 1px;
+    }
+    .project h2#project-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .profile-page-mobile .image .name {
+        margin-top: -120px;
+    }
+    .profile-page-mobile .image .name h1,
+    {
+        font-size: 1.8rem;
+    }
+    .profile-page-mobile .image .name h3 {
+        font-size: 1.75rem;
+    }
+    .content-right a,
+    .content-right    a:link,
+    .content-right   a:visited {
+        filter: none;
+        font-size: 1.5rem;
+    }
+    .project h2#project-title {
+        padding: 25px 40% 5% 5%;
+    }
+}
+
+@media screen and (min-width: 364px) {
+    .profile-page-mobile .image .name {
+        margin-top: -140px;
+    }
+    .profile-page-mobile .image .name h1,
+    {
+        font-size: 2rem;
+    }
+    .profile-page-mobile .image .name h3 {
+        font-size: 1.5rem;
+    }
+    .content-right a,
+    .content-right  a:link,
+    .content-right  a:visited {
+        filter: none;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .profile-page-mobile .image .name {
+        margin-top: -180px;
+    }
+    .profile-page-mobile .image .name h1,
+    {
+        font-size: 3.5rem;
+    }
+    .profile-page-mobile .image .name h3 {
+        font-size: 2rem;
+    }
+    .content-right a,
+    .content-right  a:link,
+    .content-right a:visited {
+        font-size: 1.75rem;
+    }
+    .project h2#project-title {
+        font-size: 2rem;
+        background-image: url("images/B-Assets-Final/ribbon.svg");
+        background-position: top left;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .profile-page-mobile .image .name {
+        margin-top: -200px;
+    }
+    .profile-page-mobile .image .name h1,
+    {
+        font-size: 4.5rem;
+    }
+    .profile-page-mobile .image .name h3 {
+        font-size: 2.5rem;
+    }
+    .content-right a,
+    .content-right   a:link,
+    .content-right  a:visited {
+        font-size: 1.75rem;
+    }
+    .project h2#project-title {
+        padding: 15px 20% 5% 5%;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 854px) {
+    .profile-page-mobile .image .name {}
+    .profile-page-mobile .image .name h1,
+    {}
+    .profile-page-mobile .image .name h3 {}
+    .content-right a,
+    .content-right   a:link,
+    .content-right  a:visited {
+        font-size: 1.75rem;
+    }
+    .project h2#project-title {
+        padding: 15px 20% 5% 2%;
+        font-size: 2.70rem;
+    }
+}
+
+////////////  desktop  //////////////
+@media screen and (min-width: 968px) {
+    .content-right h1 {
+        font-size: 4rem;
+        filter: none;
+    }
+    .content-right h3 {
+        font-size: 2rem;
+        filter: none;
+    }
+    .content-right a,
+    .content-right  a:link,
+    .content-right  a:visited {
+        filter: none;
+        font-size: 1.5rem;
+        color: $blue;
+        filter: none;
+    }
+}
+
+@media screen and (min-width: 1152px) {
+    .content-right h1 {
+        font-size: 5rem;
+    }
+    .content-right h3 {}
+    .content-right a,
+    .content-right   a:link,
+    .content-right a:visited {}
+}
+
+section.image-grid h6 {
+    font-weight: 400;
+}

@@ -23,8 +23,16 @@ section, header {
   width: 100%;
   //border-bottom: 1px solid black;
 }
-
-
+header{
+  position: fixed;
+  z-index:1000;
+}
+.home{
+  header{
+    position: relative;
+    z-index:inherit;
+  }
+}
 // standard elements
 blockquote {
   color: teal;

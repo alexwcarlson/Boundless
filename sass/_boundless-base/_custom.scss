@@ -25,11 +25,17 @@ body {
   }
 }
 
-p {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  line-height: 22px;
-  font-size: 16px;
+a, a:link, a:visited {
+  color: $darkGray;
+  transition: all .5s ease;
 }
+
+a:hover, a:focus {
+  color: $dark-75;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+
 
 .site {
   // this caused a random scroll bar in keisha's browser
@@ -38,16 +44,23 @@ p {
 
 .site-branding {
   height: 100vh;
-  @media screen and (max-width: 480px) {
-   height: 40vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  @media screen and (max-width: 767px) {
+    height: 40vh;
   }
   &:before {
     content: '';
     //background: url("images/pattern.png");
-    background: url("images/BoundlessPattern-no-crop2.png") center top repeat;
-    background-size: 130%;
+    background: url("images/cubes-splash.svg") center center no-repeat;
+    background-size: cover;
     position: absolute;
-    top: -45px;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -55,18 +68,55 @@ p {
     opacity: 1;
     z-index: -1;
   }
-
   img {
     width: 60%;
-    margin: 0 auto;
-    padding-top: 20%;
     display: block;
+
+
+    @media screen and (max-width: 767px) {
+      width: 90%;
+
+    }
+
+  }
+  svg {
+    width: 60%;
+    display: block;
+
+    @media screen and (max-width: 767px) {
+      width: 75%;
+
+    }
+
+  }
+  .cubes{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    overflow: hidden;
+    svg{
+      &.cubesBG{
+        height:100vw;
+        width:100%;
+        position: absolute;
+        top:-5vw;
+        left:0;
+        right:0;
+        bottom:0;
+        @media screen and (max-width: 767px) {
+          width: 100%;
+
+        }
+      }
+    }
   }
 }
 
 .welcome {
   margin-left: 60%;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 767px) {
     margin-left: 0;
   }
 }
@@ -75,207 +125,61 @@ p {
   @media screen and (max-width: 980px) {
     margin-left: 40%;
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 767px) {
     margin-left: 0;
   }
-}
+  svg {
+    width: 60%;
+    display: block;
 
+    @media screen and (max-width: 767px) {
+      width: 75%;
+    }
+  }
+}
 #second, #third {
   margin-top: -8px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 0;
+  }
+
 }
 
-#second {
-  position: relative;
-  z-index: 1;
-}
 
-#first, #third {
-  background-color: $dark-75;
+#third {
+  h2 {
+    &:after {
+
+    }
+  }
 }
 
 section {
   position: relative;
 }
 
-.angle-behind {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: 0;
-}
-.angle {
-  width: 500px;
-  float: left;
-  padding: 30px 0;
-  height: 100%;
-  transform: skewX(-$desktop-angle);
-  @media screen and (max-width: 480px) {
-    transform: skewX(-$mobile-angle);
-  }
-  @media screen and (max-width: 480px) {
-    width: 100%;
-  }
 
-  .header-wrap {
-    margin-left: -25%;
-    font-size: 3rem;
-    margin-top: -40px;
-    text-transform: uppercase;
-    position: relative;
-    padding: 50px 10px;
-    color: $white;
-    z-index: 100;
-    transform: skewX(20deg);
-    font-weight: 600;
-    text-align: center;
-    @media screen and (max-width: 480px) {
-      width: 100%;
-      //left: 0;
-      margin-left: 0;
-      transform: skewX(0);
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#91d0ba+0,48b982+100 */
-      background: #91d0ba; /* Old browsers */
-      background: -moz-linear-gradient(top, #91d0ba 0%, #48b982 100%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(top, #91d0ba 0%,#48b982 100%); /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(to bottom, #91d0ba 0%,#48b982 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91d0ba', endColorstr='#48b982',GradientType=0 ); /* IE6-9 */
-    }
-    &:after {
-      display: block;
-      content: '';
-      background: url(images/boundless-ribbon.svg) top right;
-      background-size: cover;
-      height: 200px;
-      width: 180%;
-      top: 0;
-      right: -30px;
-      z-index: -1;
-      position: absolute;
-      -moz-transform: scaleX(-1) skewX(0deg);
-      -o-transform: scaleX(-1) skewX(0deg);
-      -webkit-transform: scaleX(-1) skewX(0deg);
-      transform: scaleX(-1) skewX(0deg);
-      @media screen and (max-width: 480px) {
-        right: 0;
-        -moz-transform: scaleX(0) skewX(0deg);
-        -o-transform: scaleX(0) skewX(0deg);
-        -webkit-transform: scaleX(0) skewX(0deg);
-        transform: scaleX(0) skewX(0deg);
-        background-image: none;
-      }
-    }
+.content {
+  padding: 5% 15% 0 15%;
+  //color: $white;
+  @media screen and (max-width: 768px) {
+    padding: 10% 35% 0 15%;
+    margin: 0;
   }
-
-  .location-wrap {
-    @extend .header-wrap;
-    @media screen and (max-width: 480px) {
-      width: 100%;
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#91d0ba+0,48b982+100 */
-      background: #91d0ba; /* Old browsers */
-      background: -moz-linear-gradient(top, #91d0ba 0%, #48b982 100%); /* FF3.6-15 */
-      background: -webkit-linear-gradient(top, #91d0ba 0%,#48b982 100%); /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(to bottom, #91d0ba 0%,#48b982 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91d0ba', endColorstr='#48b982',GradientType=0 ); /* IE6-9 */
-    }
-    &:after {
-      display: block;
-      content: '';
-      background: url(images/boundless-ribbon.svg) top right;
-      background-size: cover;
-      height: 200px;
-      width: 150%;
-      top: 0;
-      left: 0;
-      -moz-transform: scaleX(1) skewX(0deg);
-      -o-transform: scaleX(1) skewX(0deg);
-      -webkit-transform: scaleX(1) skewX(0deg);
-      transform: scaleX(1) skewX(0deg);
-      @media screen and (max-width: 480px) {
-        width: 100%;
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#91d0ba+0,48b982+100 */
-        background: #91d0ba; /* Old browsers */
-        background: -moz-linear-gradient(top, #91d0ba 0%, #48b982 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top, #91d0ba 0%,#48b982 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom, #91d0ba 0%,#48b982 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91d0ba', endColorstr='#48b982',GradientType=0 ); /* IE6-9 */
-      }
-    }
-  }
-
-  .angle-inner {
-    width: 80%;
-    height: 100%;
-    margin: 0 225px 0 100px;
-    @media screen and (max-width: 980px) {
-      width: 90%;
-    }
-    @media screen and (max-width: 480px) {
-      width: 90%;
-      padding: 0 5%;
-      margin: 0 auto;
-    }
-    .content {
-      padding: 5% 10% 0 20%;
-      transform: skewX(20deg);
-      color: $white;
-      @media screen and (max-width: 768px) {
-        transform: skewX(10deg);
-        padding: 10% 35% 0 15%;
-        margin: 0;
-      }
-      @media screen and (max-width: 480px) {
-        transform: skewX(0deg);
-        padding: 10% 0 10% 0;
-        margin: 0;
-      }
-    }
-    p {
-      font-size: 1.25rem;
-      line-height: 1.5rem;
-    }
-    p:first-child {
-      @media screen and (max-width: 480px) {
-        margin-left: 0;
-      }
-    }
-    p:nth-child(2) {
-      margin-left: -55px;
-      @media screen and (max-width: 480px) {
-        margin-left: 0;
-      }
-    }
-  }
-
-  .bottom-header {
-    font-size: 3rem;
-    color: $green;
-    small {
-      font-size: 1.75rem;
-      line-height: 1rem;
-    }
+  @media screen and (max-width: 767px) {
+    padding: 10% 0 10% 0;
+    margin: 0;
   }
 }
 
-/*
- * The first percentage creates the width
- * $j is the increment
- * It multiples by the number and creates the angle for the text to flow in
- */
-@for $j from 1 through 20 {
-  .line:nth-child(#{$j}) {
-    $margin: 5% + ($j * 2.5);
-    margin-left: -$margin;
-    margin-right: $margin;
-    @media screen and (max-width: 768px) {
-      $m-margin: 5% + ($j * 1.9);
-      margin-left: -$m-margin;
-      margin-right: $m-margin;
-    }
-    @media screen and (max-width: 480px) {
-      $s-margin: 2% + ($j * 1.5);
-      margin-left: 0;
-      margin-right: 0;
-    }
+.bottom-header {
+  font-size: 3rem;
+  color: $green;
+  small {
+    font-size: 1.75rem;
+    line-height: 1rem;
+
   }
 }
 
@@ -289,6 +193,7 @@ section {
   top: 38%;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
+
   .tri {
     width: 0px;
     height: 0px;
@@ -321,33 +226,53 @@ section {
 }
 
 .svg-toggle {
-  height: 100px;
-  z-index: 30;
+  height: 111px;
+  width: 45px;
+  z-index: 26;
   position: fixed;
   top: 0;
   right: 0;
+  animation: bounce 1s 4s cubic-bezier(.84,-0.54,.31,1.19);
 
   .base {
-    fill: #4B6766;
+    fill: #dadada;
   }
   .tri {
-    fill: #3AA8A7;
+    fill: $white;
+  }
+  .cls-3 {
+    opacity: 0.2;
+    mix-blend-mode: multiply;
   }
   .plus {
-    fill: $white;
+    fill: $blue;
     transition: transform 1s ease;
   }
 }
 
-.portfolio {
-  .angle-inner {
-    width: 100%;
-    margin: 75px 0;
-    padding: 0;
-    @media screen and (max-width: 480px) {
-      margin-left: 0;
-    }
+
+
+
+@keyframes bounce {
+  0% {
+    transform: none;
   }
+  50% {
+    transform: translateX(-.5em);
+  }
+  55% {
+    transform: translateX(-.6em);
+  }
+  85% {
+    transform: translateX(0);
+  }
+  90% {
+    transform: translateX(-.1em);
+  }
+}
+
+.portfolio {
+
   .portfolio-btn {
     width: 100%;
     padding: 75px 0;
@@ -360,175 +285,22 @@ section {
     color: $white;
     background-color: $yellow;
   }
-  @for $j from 3 through 1 {
-    .stripe-#{$j} {
-      height: $j * 20px;
-      margin: ($j * 10px) 0;
 
-      @if $j == 3 {
-        @media screen and (max-width: 480px) {
-          height: 200px;
-        }
-      } @else if $j == 2 {
-        background-color: #957c49 !important;
-        @media screen and (max-width: 480px) {
-          height: 75px;
-        }
-      } @else if $j == 1 {
-        background-color: #caa457 !important;
-        @media screen and (max-width: 480px) {
-          height: 50px;
-        }
-      }
-
-      //@media screen and (max-width: 480px) {
-      //  @if $j == 3  {
-      //    height: 200px;
-      //  }
-      //  @else if $j == 2  {
-      //    height: 75px;
-      //  }
-      //  @else if $j == 1  {
-      //    height: 50px;
-      //  }
-      //}
-    }
-  }
-  .stripe {
-    background-color: #2b2b2b;
-    @media screen and (max-width: 480px) {
-      width: 100%;
-      &-first {
-        margin-top: 0;
-      }
-      &-last {
-        margin-bottom: 0;
-      }
-    }
-  }
 }
 
-.sec-portfolio {
-  position: relative;
+.sec-press {
+  background: $purple;
 
-  .web-full {
-    position: absolute;
-    width: 30%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    float: left;
-    height: inherit;
-    @media screen and (max-width: 480px) {
-      width: 100%;
-      position: relative;
-    }
-      a {
-      width: 100%;
-      height: 150px;
-      position: relative;
-      top: 0;
-      padding: 50px 0;
-      float: left;
-      text-align: center;
-      display: block;
-      background-color: $gray;
-      color: $blue;
-      text-transform: uppercase;
-      font-family: $heading-stack;
-      font-size: 3em;
-      font-weight: 600;
-      ////transform: skewX( -$desktop-angle );
-      &:after {
-        content: " ";
-        position: absolute;
-        display: block;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        background: $gray;
-        border-right: 1px solid transparent;
-        transform-origin: bottom left;
-        -ms-transform: skew(-$desktop-angle, 0deg);
-        -webkit-transform: skew(-$desktop-angle, 0deg);
-        transform: skew(-$desktop-angle, 0deg);
-        @media screen and (max-width: 480px) {
-          -ms-transform: skew($mobile-angle, 0deg);
-          -webkit-transform: skew($mobile-angle, 0deg);
-          transform: skew($mobile-angle, 0deg);
-        }
-      }
-    }
+  h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 50px 10px;
+    color: $black;
+    font-weight: 600;
   }
-  .print-full {
-    position: absolute;
-    width: 30%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    float: right;
-    height: inherit;
-    @media screen and (max-width: 480px) {
-      width: 100%;
-      position: relative;
-    }
-    a {
-      width: 100%;
-      height: 150px;
-      position: relative;
-      top: 70%;
-      padding: 50px 0;
-      float: right;
-      text-align: center;
-      display: block;
-      background-color: $gray;
-      color: $red;
-      text-transform: uppercase;
-      font-family: $heading-stack;
-      font-size: 3em;
-      font-weight: 600;
-      &:after {
-        content: " ";
-        position: absolute;
-        display: block;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        background: $gray;
-        border-left: 1px solid transparent;
-        transform-origin: top right;
-        -ms-transform: skew(-$desktop-angle, 0deg);
-        -webkit-transform: skew(-$desktop-angle, 0deg);
-        transform: skew(-$desktop-angle, 0deg);
-      }
-    }
-  }
-}
-.site-footer {
-  clear: both;
-  width: 100%;
-  background: #00A8EF;
-  padding: 4rem;
-  position: relative;
-  z-index: 25;
-  margin-bottom: -1rem;
+
 }
 
-.off-mobile {
-  @media screen and (min-width: 480px) {
-    display: none;
-  }
-}
-
-.on-mobile {
-  @media screen and (max-width: 480px) {
-    display: block;
-  }
-}
 
 #map {
   width: 100%;
@@ -536,58 +308,119 @@ section {
 }
 
 // ----- PRESS
+.wpsms-container {
+  min-height: 200px;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 50px;
+}
 
 .press {
-  height: auto;
-  clear: both;
-  border: none;
-  @include grid-container();
 
-  h1 {
-    background-color: #6772B7;
-    font-size: 2em;
-    width: 35%;
-    text-align: right;
-    padding: 20px 40px;
-    margin-bottom: 20px;
-    box-shadow: 20px 20px 0 #353c69;
+  margin-top: 125px;
+}
+
+.alumni {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 25px;
+
+  //.content {
+  //  padding: 50px 20px;
+  //}
+
+}
+
+.speakers {
+  //float: left;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+
+  background: rgba(255, 255, 255, 0.8);
+
+  @media screen and (max-width: 767px) {
+    padding: 50px 20px;
   }
 
-  .speakers {
-    float: left;
-    width: 100%;
-    margin: 25px auto;
-    padding: 30px;
-    background: rgba(255, 255, 255, .8);
+  h5 {
+    line-height: .5;
+  }
+  .profile {
+    @include grid-column(4);
+    text-align: center;
 
-    .profile {
-      @include grid-column(3);
-      text-align: center;
+    img {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+    }
 
-      img {
-        width: 100%;
-        max-width: 300px;
-        margin: 0 auto;
-      }
+    @media screen and (max-width: 767px) {
+      @include grid-column(12);
     }
-    .text {
-      @include grid-column(8);
+
+  }
+
+  .text {
+    @include grid-column(8);
+    margin-left: 20px;
+    @media screen and (max-width: 767px) {
+      @include grid-column(12);
+      margin-top: 20px;
     }
+  }
+
+}
+
+#press-twitter {
+  background-color: rgba(144, 209, 187, 0.7);
+  padding-top: 20px;
+  padding-bottom: 65px;
+  padding-left: 100px;
+  padding-right: 100px;
+  h5 {
+    text-align: center;
+    margin: 50px 0;
   }
 }
 
-///*p.speaker-p {*/
-///*margin-right: 150px;*/
-///*}*/
-#press-twitter {
-  background-color: #90d1bb;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 30px;
+.rotating-tweets {
+  border: none;
 }
 
 #press-instagram {
   text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  /*margin-bottom: 30px;*/
+  padding-bottom: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
+  h5 {
+    padding: 50px 0;
+  }
+
+  #sb_instagram {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+}
+
+.sbi_follow_btn {
+  @include grid-column(2);
+  @include grid-push(5);
+  background: #3aa8a7;
+  text-align: center;
+
+  a {
+    padding: 15px;
+    display: block;
+  }
+  @media screen and (max-width: 767px) {
+    @include grid-column(12);
+    @include grid-push(0);
+    width: 100%;
+    margin: 0;
+  }
 }
 
 /*div.timeline-Widget {*/
@@ -596,9 +429,151 @@ section {
 /*.btn {*/
 /*background-color: #90d1bb !important;*/
 /*}*/
-
 @media (max-width: 649px) {
   .speaker-text {
     float: left;
   }
 }
+
+
+#dfe9e9e6-3ef9-42f3-b769-f18c691ce5b1{
+
+  transform: scale(0.1);
+  opacity: 0;
+  animation: bounceIn 1s ease-in-out 0s forwards;
+}
+
+#wordmark {
+
+  transform: scale(0.1);
+  opacity: 0;
+  animation: bounceIn 1s ease-in-out 0s forwards;
+}
+
+#designmark{
+
+  transform: scale(0.1);
+  opacity: 0;
+  animation: bounceInSlide 1s ease-in-out 0s forwards;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bounceInSlide {
+  0% {
+    transform: scale(0.1) translate(30px, 30px);
+    opacity: 0;
+  }
+  60% {
+
+    transform: scale(1.1) translate(30px, 30px);
+
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+    transform: scale(1) translate(30px, 30px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translate(0, 0);
+  }
+}
+
+
+#tues {
+  transform: translate(-40px, 0);
+  opacity: 0;
+  -webkit-animation: slidetoright 500ms ease-in-out 1s forwards;
+  -o-animation: slidetoright 500ms ease-in-out 1s forwards;
+  animation: slidetoright 500ms ease-in-out 1s forwards;
+}
+
+#may2 {
+  transform: translate(-40px, 0);
+  opacity: 0;
+  -webkit-animation: slidetoright 500ms ease-in-out 1200ms forwards;
+  -o-animation: slidetoright 500ms ease-in-out 1200ms forwards;
+  animation: slidetoright 500ms ease-in-out 1200ms forwards;
+}
+
+#eight {
+  transform: translate(-40px, 0);
+  opacity: 0;
+  -webkit-animation: slidetoright 500ms ease-in-out 1400ms forwards;
+  -o-animation: slidetoright 500ms ease-in-out 1400ms forwards;
+  animation: slidetoright 500ms ease-in-out 1400ms forwards;
+}
+
+#wed {
+  transform: translate(40px, 0);
+  opacity: 0;
+  -webkit-animation: slideToLeft 500ms ease-in-out 1600ms forwards;
+  -o-animation: slideToLeft 500ms ease-in-out 1600ms forwards;
+  animation: slideToLeft 500ms ease-in-out 1600ms forwards;
+}
+
+#may3 {
+  transform: translate(40px, 0);
+  opacity: 0;
+  -webkit-animation: slideToLeft 500ms ease-in-out 1800ms forwards;
+  -o-animation: slideToLeft 500ms ease-in-out 1800ms forwards;
+  animation: slideToLeft 500ms ease-in-out 1800ms forwards;
+}
+
+#seven {
+  transform: translate(40px, 0);
+  opacity: 0;
+  -webkit-animation: slideToLeft 500ms ease-in-out 2000ms forwards;
+  -o-animation: slideToLeft 500ms ease-in-out 2000ms forwards;
+  animation: slideToLeft 500ms ease-in-out 2000ms forwards;
+}
+
+
+@keyframes slidetoright {
+  0% {
+    transform: translate(-40px, 0);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes slideToLeft {
+  0% {
+    transform: translate(40px, 0);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+
+    transform: translate(0, 0);
+
+  }
+}
+
+
+
