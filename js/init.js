@@ -53,9 +53,17 @@ jQuery(document).ready(function () {
     jQuery(".filter-button").click(function () {
         var clickID = jQuery(this).attr('id');
         var major = jQuery('#' + clickID).attr('data-filter');
-        jQuery('.image-container').fadeOut('slow', function () {
-            jQuery('.image-container' + major).fadeIn('slow')
-        });
+
+        //if major equals print hide web, web hide print, else show all
+        if(major = 'Print'){
+            // jQuery('.image-container').fadeOut('slow', function () {
+                jQuery('.image-container .web').hide();
+            // });
+        }
+        // jQuery('.image-container').fadeOut('slow', function () {
+        //     jQuery('.image-container' + major).fadeIn('slow')
+        // });
+
     });
 
 
