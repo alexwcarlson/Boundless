@@ -103,6 +103,9 @@ section {
           font-size:2rem;
 
         }
+        p.mission{
+          text-align: right;
+        }
       }
       @media(max-width: 767px){
         .content-container{
@@ -148,7 +151,7 @@ section {
     }
     &.fourth {
       .bottom-header{
-        margin-top:20px;
+        margin-top:80px;
         line-height:1.1;
 
         @media(max-width: 767px){

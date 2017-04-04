@@ -2533,6 +2533,7 @@ h2.header-ltr, h2.header-rtl {
     display: block;
     content: '';
     background: url(images/boundless-ribbon.svg) top right;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 175px;
     width: 55%;
@@ -2717,7 +2718,7 @@ ul.navigation {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 25;
+  z-index: 999;
   top: 0;
   right: 0;
   transition: all 0.5s ease;
@@ -3423,7 +3424,7 @@ section.profile-intro {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: #58595b; }
+  background: #2b2b2b; }
   .profile-page-mobile .image {
     width: calc(100% - 40px);
     float: left;
@@ -3732,6 +3733,10 @@ section.profile-intro {
           top: 25%;
           right: 20px;
           vertical-align: middle; } }
+        @media only screen and (max-width: 1100px) and (max-width: 767px) {
+          .project .portfolio-item .project-image-container img {
+            right: 0; } }
+
 @media only screen and (max-width: 1024px) {
   .project {
     padding-top: 0;
@@ -3794,7 +3799,7 @@ section.profile-intro {
         .project .portfolio-item .project-image-container img {
           width: 100%;
           position: absolute;
-          top: 0;
+          top: 5px;
           vertical-align: middle; } }
 @media only screen and (max-width: 901px) {
   .project {
@@ -3844,7 +3849,7 @@ section.profile-intro {
     height: 100vh; }
 
   .project {
-    background-color: #58595b;
+    background-color: #2b2b2b;
     padding-top: 0;
     height: auto; }
     .project h2#project-title {
@@ -4853,6 +4858,8 @@ section.homesec {
     @media (max-width: 767px) {
       section.homesec.first .bottom-header {
         font-size: 2rem; } }
+    section.homesec.first .bottom-header p.mission {
+      text-align: right; }
   @media (max-width: 767px) {
     section.homesec.first .content-container {
       float: right; } }
@@ -4881,7 +4888,7 @@ section.homesec {
       section.homesec.third:after {
         background-position: top right; } }
   section.homesec.fourth .bottom-header {
-    margin-top: 20px;
+    margin-top: 80px;
     line-height: 1.1; }
     @media (max-width: 767px) {
       section.homesec.fourth .bottom-header {

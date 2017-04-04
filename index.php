@@ -64,8 +64,10 @@ get_header(); ?>
 
             <div class="content-container">
                 <div class="bottom left">
+
                     <p>The MCTC 2017 design show bring to light the meaning of creativity. This event will allow each guest the opportunity to view a wide variety of projects forged with create passion.</p>
                     <p>Discover the works of 47 designers and developers dedicated to their craft; their creativity knows no bounds.</p>
+
                     <a href="/students" class="portfolio-btn">view portfolios</a>
                 </div>
             </div>

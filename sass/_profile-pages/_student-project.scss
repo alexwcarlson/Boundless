@@ -273,6 +273,9 @@
                     top: 25%;
                     right: 20px;
                     vertical-align: middle;
+                    @media(max-width: 767px){
+                        right:0;
+                    }
                 }
             }
         }
@@ -348,7 +351,7 @@
                 img {
                     width: 100%;
                     position: absolute;
-                    top: 0;
+                    top: 5px;
                     //right: 0px;
                     vertical-align: middle;
                 }
